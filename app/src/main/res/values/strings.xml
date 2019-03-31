@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Radio be</string>
+    <string name="all_programs">כל התוכניות</string>
+    <string name="most_watched">הנצפים ביותר</string>
+    <string name="recently_added">נוספו לאחרונה</string>
+    <string name="recommended">מומלצים עבורך</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hint_First_Name">הכנס שם פרטי</string>
+    <string name="First_Name">שם פרטי</string>
+    <string name="hint_enter_last_name">Enter last name</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/tbPlayStop"
+            android:layout_width="102dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/equalizer"
+            android:checked="false"
+            android:text="ToggleButton"
+            android:textOff="STOP"
+            android:textOn="PLAY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/shadranTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/tbPlayStop"
+            app:layout_constraintTop_toTopOf="@+id/tbPlayStop" />
+
+        <TextView
+            android:id="@+id/durationTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/tbPlayStop"
+            app:layout_constraintTop_toBottomOf="@+id/shadranTv" />
+
+        <TextView
+            android:id="@+id/addedTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/tbPlayStop"
+            app:layout_constraintTop_toBottomOf="@+id/durationTv" />
+
+        <TextView
+            android:id="@+id/likesTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="1 לייקים"
+            app:layout_constraintBottom_toBottomOf="@+id/likeBtn"
+            app:layout_constraintStart_toEndOf="@+id/likeBtn"
+            app:layout_constraintTop_toTopOf="@+id/likeBtn"
+            app:layout_constraintVertical_bias="0.461" />
+
+        <TextView
+            android:id="@+id/commentsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="1 תגובות"
+            app:layout_constraintBottom_toBottomOf="@+id/commentBtn"
+            app:layout_constraintStart_toEndOf="@+id/commentBtn"
+            app:layout_constraintTop_toTopOf="@+id/commentBtn" />
+
+        <TextView
+            android:id="@+id/viewsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="1 צפיות"
+            app:layout_constraintBottom_toBottomOf="@+id/viewsIv"
+            app:layout_constraintStart_toEndOf="@+id/viewsIv"
+            app:layout_constraintTop_toTopOf="@+id/viewsIv" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addFavoriteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/white"
+            app:fabCustomSize="30dp"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.100000024"
+            app:srcCompat="@drawable/ic_favorite" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/shareFbBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/white"
+            app:fabCustomSize="30dp"
+            app:fabSize="mini"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addFavoriteBtn"
+            app:srcCompat="@drawable/sharebutton" />
+
+        <ImageView
+            android:id="@+id/viewsIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/commentsTv"
+            app:srcCompat="@android:drawable/ic_menu_view" />
+
+        <ImageButton
+            android:id="@+id/commentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/likesTv"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+
+        <ImageButton
+            android:id="@+id/likeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/commentBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/commentBtn"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_thumb" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
