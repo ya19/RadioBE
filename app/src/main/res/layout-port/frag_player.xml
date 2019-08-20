@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/containerRadioLive"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/album_art"
+        android:layout_width="220dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/microphone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/show_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="song name"
+        app:layout_constraintEnd_toEndOf="@+id/album_art"
+        app:layout_constraintStart_toStartOf="@+id/album_art"
+        app:layout_constraintTop_toBottomOf="@+id/album_art" />
+
+    <TextView
+        android:id="@+id/show_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="song duration"
+        app:layout_constraintEnd_toEndOf="@+id/show_name"
+        app:layout_constraintStart_toStartOf="@+id/show_name"
+        app:layout_constraintTop_toBottomOf="@+id/show_name" />
+
+    <ImageButton
+        android:id="@+id/button_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="@null"
+        android:src="@drawable/icons8_back_32"
+        app:layout_constraintBottom_toBottomOf="@+id/button_play"
+        app:layout_constraintStart_toStartOf="@+id/album_art"
+        app:layout_constraintTop_toTopOf="@+id/button_play" />
+
+    <ImageButton
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:src="@drawable/icons8_play_32"
+        app:layout_constraintEnd_toStartOf="@+id/button_next"
+        app:layout_constraintStart_toEndOf="@+id/button_previous"
+        app:layout_constraintTop_toBottomOf="@+id/show_number" />
+
+    <ImageButton
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:background="@null"
+        android:src="@drawable/icons8_next_32"
+        app:layout_constraintBottom_toBottomOf="@+id/button_play"
+        app:layout_constraintEnd_toEndOf="@+id/album_art"
+        app:layout_constraintTop_toTopOf="@+id/button_play" />
+
+    <ImageButton
+        android:id="@+id/button_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:src="@drawable/icons8_mute_32"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbar"
+        app:layout_constraintEnd_toStartOf="@+id/seekbar"
+        app:layout_constraintTop_toTopOf="@+id/seekbar" />
+
+    <com.example.radiobe.radioLive.MediaSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_play" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

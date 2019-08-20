@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <ToggleButton
+            android:id="@+id/tbPlayStop"
+            android:layout_width="102dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/equalizer"
+            android:checked="false"
+            android:text="ToggleButton"
+            android:textOff="STOP"
+            android:textOn="PLAY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="title"
+            app:layout_constraintEnd_toStartOf="@+id/addFavoriteBtn"
+            app:layout_constraintStart_toEndOf="@+id/tbPlayStop"
+            app:layout_constraintTop_toTopOf="@+id/tbPlayStop" />
+
+        <TextView
+            android:id="@+id/durationTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="duration"
+            app:layout_constraintEnd_toEndOf="@+id/titleTv"
+            app:layout_constraintStart_toStartOf="@+id/titleTv"
+            app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+
+        <TextView
+            android:id="@+id/addedTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="creationDate"
+            app:layout_constraintStart_toEndOf="@+id/tbPlayStop"
+            app:layout_constraintTop_toBottomOf="@+id/durationTv" />
+
+        <TextView
+            android:id="@+id/likesTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/likes_item"
+            app:layout_constraintBottom_toBottomOf="@+id/toggleLikes"
+            app:layout_constraintStart_toEndOf="@+id/toggleLikes"
+            app:layout_constraintTop_toTopOf="@+id/toggleLikes" />
+
+        <TextView
+            android:id="@+id/commentsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/comments_item"
+            app:layout_constraintBottom_toBottomOf="@+id/commentBtn"
+            app:layout_constraintStart_toEndOf="@+id/commentBtn"
+            app:layout_constraintTop_toTopOf="@+id/commentBtn" />
+
+        <TextView
+            android:id="@+id/viewsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/views_item"
+            app:layout_constraintBottom_toBottomOf="@+id/viewsIv"
+            app:layout_constraintStart_toEndOf="@+id/viewsIv"
+            app:layout_constraintTop_toTopOf="@+id/viewsIv" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addFavoriteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/white"
+            app:fabCustomSize="30dp"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toTopOf="@+id/shareFbBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icons8_add_to_favorites_32" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/shareFbBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/white"
+            app:fabCustomSize="30dp"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="@+id/durationTv"
+            app:layout_constraintEnd_toEndOf="@+id/addFavoriteBtn"
+            app:layout_constraintStart_toStartOf="@+id/addFavoriteBtn"
+            app:layout_constraintTop_toTopOf="@+id/durationTv"
+            app:srcCompat="@drawable/icons8_share_32" />
+
+        <ImageButton
+            android:id="@+id/viewsIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            app:layout_constraintStart_toEndOf="@+id/commentsTv"
+            app:layout_constraintTop_toBottomOf="@+id/addedTv"
+            app:srcCompat="@drawable/icons8_eye_32" />
+
+        <ImageButton
+            android:id="@+id/commentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            app:layout_constraintStart_toEndOf="@+id/likesTv"
+            app:layout_constraintTop_toBottomOf="@+id/addedTv"
+            app:srcCompat="@drawable/icons8_comments_32" />
+
+        <ToggleButton
+            android:id="@+id/toggleLikes"
+            android:layout_width="32dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/com_facebook_auth_dialog_header_background"
+            android:button="@drawable/icons8_like_32"
+            android:text="ToggleButton"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="@+id/commentBtn"
+            app:layout_constraintStart_toEndOf="@+id/tbPlayStop"
+            app:layout_constraintTop_toTopOf="@+id/commentBtn" />
+
+        <!--app:srcCompat="@drawable/icons8_like_32"-->
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">14045135604-esop9vte2o4t3v5e2d348hqpuukqg198.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://radiobe-1.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">14045135604</string>
+    <string name="google_api_key" translatable="false">AIzaSyDblAVwztzIGwRdC6I_FfCKDQNx6np6pQs</string>
+    <string name="google_app_id" translatable="false">1:14045135604:android:b042cf40d08afae9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDblAVwztzIGwRdC6I_FfCKDQNx6np6pQs</string>
+    <string name="google_storage_bucket" translatable="false">radiobe-1.appspot.com</string>
+    <string name="project_id" translatable="false">radiobe-1</string>
+</resources>

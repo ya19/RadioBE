@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="First_Name">שם פרטי</string>
+    <string name="Ok">כן</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="all_programs">כל התוכניות</string>
+    <string name="app_name">רדיו בית אקשטיין</string>
+    <string name="cancel">בטל</string>
+    <string name="comments_item">תגובות</string>
+    <string name="enter_your_birthday">הכנס את יום ההולדת שלך</string>
+    <string name="forgot_password">שכחתי סיסמה</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_First_Name">הכנס שם פרטי</string>
+    <string name="hint_email_address">הכנס כתובת מייל</string>
+    <string name="hint_enter_last_name">הכנס שם משפחה</string>
+    <string name="hint_password">הכנס סיסמה</string>
+    <string name="label_next">הבא</string>
+    <string name="label_pause">עצור</string>
+    <string name="label_play">נגן</string>
+    <string name="label_previous">הקודם</string>
+    <string name="likes_item">לייקים</string>
+    <string name="logOutDialog">האם אתה בטוח שאתה רוצה להתנתק?</string>
+    <string name="logOutSuccess">התנתקת בהצלחה!</string>
+    <string name="log_in">התחברות</string>
+    <string name="most_watched">הנצפים ביותר</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="not_a_member_sign_up">לא משתמש רשום - הרשם</string>
+    <string name="or_sign_in_with">או התחבר עם…</string>
+    <string name="radio_live_login_btn">שידור חי</string>
+    <string name="recently_added">נוספו לאחרונה</string>
+    <string name="reenter_your_password">הכנס סיסמה שוב</string>
+    <string name="registration">הרשמה</string>
+    <string name="remember_me">זכור אותי</string>
+    <string name="sign_up">הרשם</string>
+    <string name="title_activity_profile">פרופיל</string>
+    <string name="title_activity_radio">ActivityRadio</string>
+    <string name="views_item">צפיות</string>
+</resources>

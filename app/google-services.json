@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14045135604",
+    "firebase_url": "https://radiobe-1.firebaseio.com",
+    "project_id": "radiobe-1",
+    "storage_bucket": "radiobe-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14045135604:android:b042cf40d08afae9",
+        "android_client_info": {
+          "package_name": "com.example.radiobe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14045135604-esop9vte2o4t3v5e2d348hqpuukqg198.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDblAVwztzIGwRdC6I_FfCKDQNx6np6pQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14045135604-esop9vte2o4t3v5e2d348hqpuukqg198.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

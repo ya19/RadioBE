@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Radio be</string>
-    <string name="all_programs">כל התוכניות</string>
-    <string name="most_watched">הנצפים ביותר</string>
-    <string name="recently_added">נוספו לאחרונה</string>
-    <string name="recommended">מומלצים עבורך</string>
+    <string name="all_programs">All Programs</string>
+    <string name="most_watched">Most Viewed</string>
+    <string name="recently_added">recently added</string>
     <string name="title_activity_profile">Profile</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -11,8 +10,38 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_settings">Settings</string>
-    <string name="hint_First_Name">הכנס שם פרטי</string>
-    <string name="First_Name">שם פרטי</string>
-    <string name="hint_enter_last_name">Enter last name</string>
+    <string name="hint_First_Name">Enter your first name</string>
+    <string name="First_Name">First Name</string>
+    <string name="hint_enter_last_name">Enter your last name</string>
+    <string name="radio_live_login_btn">Live Radio</string>
+    <string name="label_play">Play</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_next">Next</string>
+    <string name="label_previous">Previous</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_radio">ActivityRadio</string>
+    <string name="likes_item">Likes</string>
+    <string name="comments_item">Comments</string>
+    <string name="views_item">Views</string>
+    <string name="hint_email_address">Enter your Email Address</string>
+    <string name="hint_password">Enter Your Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Login</string>
+    <string name="not_a_member_sign_up">Not a member - Sign up</string>
+    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="registration">Registration</string>
+    <string name="enter_your_birthday">Enter Your Birthday</string>
+    <string name="reenter_your_password">ReEnter Your Password</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!--//Facebook-->
+    <string name="facebook_app_id" translatable="false">2326621704290575</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2326621704290575</string>
+    <string name="logOutDialog">Are you sure you want to log out?</string>
+    <string name="logOutSuccess">Logged out successfully!</string>
+    <string name="Ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+
 </resources>

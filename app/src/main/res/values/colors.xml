@@ -3,4 +3,6 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#F6174C45</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="notification_bg">#e91e63</color>
+    <color name="weird">#b815c1</color>
 </resources>

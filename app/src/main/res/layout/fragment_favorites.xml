@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ConstraintLayout"
+    android:id="@+id/svFavorites"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainScreen.Favorites">
+    tools:context=".fragments.Favorites">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
 
     <TextView
         android:id="@+id/tvFavorRecommended"
@@ -26,9 +32,7 @@
         android:id="@+id/flFavoriteTop"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#ddd"
         android:orientation="horizontal"
-        android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline33"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="#777"
+            android:background="#333"
             android:orientation="horizontal"
             android:padding="4dp">
 
@@ -70,10 +74,8 @@
     <FrameLayout
         android:id="@+id/flFavoriteMiddle"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#ddd"
+        android:layout_height="167dp"
         android:orientation="horizontal"
-        android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline66"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="#777"
+            android:background="#333"
             android:orientation="horizontal"
             android:padding="4dp" />
     </FrameLayout>
@@ -114,9 +116,7 @@
         android:id="@+id/flFavoriteBottom"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#ddd"
         android:orientation="horizontal"
-        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,9 +127,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="#777"
+            android:background="#333"
             android:orientation="horizontal"
             android:padding="4dp" />
     </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
