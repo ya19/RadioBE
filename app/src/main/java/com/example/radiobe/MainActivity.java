@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseUser firebaseUser;
 
     //this is a new change for github
-    private Button newChange;
+
 
     private Button anotherChange;
 
