@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
     // asdas
     // yarden change
+    //random buttons for github testing
+    private Button yarden;
+    private Button gitHub;
+    //test
 
 
     @Override
