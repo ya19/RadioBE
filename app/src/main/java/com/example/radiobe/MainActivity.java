@@ -20,11 +20,10 @@ public class MainActivity extends AppCompatActivity {
     private Button btnLogin;
     FirebaseUser firebaseUser;
 
-    //this is a new change for github
 
-
-
-
+    //random buttons for github testing
+    private Button yarden;
+    private Button gitHub;
 
 
     @Override
