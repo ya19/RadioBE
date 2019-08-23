@@ -39,6 +39,8 @@
     <string name="logOutSuccess">התנתקת בהצלחה!</string>
     <string name="Ok">כן</string>
     <string name="cancel">בטל</string>
+    <string name="title_activity_main_screen">מסך ראשי</string>
+    <string name="title_menu_log_out">התנתק/י</string>
 
 
 </resources>

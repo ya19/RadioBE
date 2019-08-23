@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AndroidProject\\RadioNewVersion7.7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "/Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\47bcf81b66ea97dbb153fa9e159d5a39\\res\\values-v25\\values-v25.xml",
+                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6bf8be94b76650049eeb9092da6a413e/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

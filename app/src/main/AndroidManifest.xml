@@ -61,8 +61,9 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <provider android:authorities="com.facebook.app.FacebookContentProvider2326621704290575"
+        <provider
             android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider2326621704290575"
             android:exported="true" />
 
         <activity

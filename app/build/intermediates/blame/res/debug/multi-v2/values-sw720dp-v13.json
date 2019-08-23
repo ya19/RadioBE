@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AndroidProject\\RadioNewVersion7.7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "/Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\2fb46ac2bcc6188d61837c1bb5243cfd\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4a674ac8d2bfd884c814a35de2fd7992/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

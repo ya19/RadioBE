@@ -1,40 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
 MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4a674ac8d2bfd884c814a35de2fd7992/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/660926f3a8a9fbc09e5d85e0cf7b4288/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5dcb369bbca65ccfb6661618f744671e/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-share:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/adb573419ad463c22b986d17438dc14e/AndroidManifest.xml:21:1-31:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2b02ce3152f70e27494a2c7d0edca4b2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:21:1-37:12
-MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/bb942f20b38822125bf72cdbf9a4c9d5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6bf8be94b76650049eeb9092da6a413e/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7b2dc62dd5dc23f42aae98b14e2dae19/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:15:1-36:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/40d643e9f91a52c31467ca7d9a1ceed7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dfe0013d1929a96bccba305eec8dd828/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ea003d20fcb97153366867c2c4d155bf/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1b47a1266c5c0f61713bc8042261a8e7/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f94b223a95bb35b3232f4ef2ebfd8e42/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7eab4ff91a9d06f77fde78ae0c54fee1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c7c90e0d289dcc5722bd4b04abdd2075/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1404a122d304d305138b8b1fbcb9cfb9/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dc809f70716344f48418acbd7ef9de18/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ee15f0946c39f4041626688ead581122/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/305806e84fb7d4354e4e7cff6a687eef/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/45fa3c896168498a624b49d7177cfbad/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/50297785a55494a16c66645546a2e42e/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1e1c3fb683bec90dce89eb9add7e9c67/AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/23e33de80c0566934dc36eb28e21edb8/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b2d97c02fe175bd8736eed84202f4968/AndroidManifest.xml:2:1-12:12
@@ -43,79 +19,102 @@ MERGED from [androidx.media2:media2:1.0.0-alpha02] /Users/yardenswisa/.gradle/ca
 MERGED from [com.google.android.exoplayer:exoplayer:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2b37081aae9fcdb922782dd39e3b95ac/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6ac30f5365bd11c4b883707b7e07061a/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/001157362722d1ca2c2f248534d3cf0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f13406c58ff8b295472ca291ce7375e6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a27d7bc48b95e46bee0f94be80848962/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ad90a3b232c998dd238754a24e9672ae/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0-alpha08] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f41fa3d403e586ebec8406f33e8ca7b0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/20f946c6cb3b66fa495da7029252efa1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/80ca6cc531992564921df37a634c667f/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a526b592a8c31fe0a203f75425960add/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ecd213031a9d012f532238ddaf3a1800/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19ed676967c0e47dcac26532709d8e2e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c802cf78aa036dde7f2069e4d91016c8/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dba8172c0a891ef1c7bf67bca936a9eb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/faf9b36607fc71e2f44b70a79ea84af0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/632fb4f0d3d2accb4d4968cc945791d9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1cf70b2220d9edfb917660ad24a988b6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/147b5ada61c3f90ed921225cc514132d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/440c694bf03de9a32e41a6bb0d2b0607/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e85356a263a2243c98c770f2562164d9/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f4f016f346bf3b13b71eeedc37f3bab2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d26dd7e94dcc751e936f1ab109b47612/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6b19a24aa1626fef6b78204c72dadb32/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2007480be887f545b22e70c8a182d3fa/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.palette:palette:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/02b556218bbe6abbc77fc71647ad01ab/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-core:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/97cd05af026e0a8f22e1230e29640a36/AndroidManifest.xml:21:1-61:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f4b9821ad13baef7b59c3289a660843d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/22a2ebeef833990362b4cd4c21e04739/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fbb9b8573cc2d8f99818b00c4249d5ed/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04c45e177b99b56c330bd601eab292a8/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/22a2ebeef833990362b4cd4c21e04739/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0-alpha08] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/eccead33ba11c33bec79fbd75c29af86/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/0b2ce234332537ce573b9f8fcb1169d7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/48a6e2e9a78f90b8cf48e947e318e7d3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/452a188204dc04342d69e5a0d15dc712/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e8556a6eb9308efba47c4289415b0668/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19cc8f3b180f58f29bcc0f184ba11102/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/974d297e03e2a47d6120b60115981f2d/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cb9de6f4eb044fa2feba98342b6109ea/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9b06bb86a62e291292199ed57e5fca78/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c1c289eaae0d5e61b0e72cc497e3ee07/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/20edf29c485bb8e7b22754d16c7f7d04/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b0b5d0bd5d3339cd1c35552909c546bd/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3abe40617560b166fe2f0fb7bbacf389/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cc7580414d04c857b351d576039890e7/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/661ee3377b3f41d621dc0c622eb67856/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/129e4d33733efe63b7e0eb21d8758e85/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d715ff6beb36d8ea79cce297eca831d5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5928555dc735f8de4d204fc3bf70ee91/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e7baac660d56095a8d747560c9d1df01/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/efa87a10a5114c05446e6b6dfef7ac11/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d92cc0d42101bba944f1ab13ce00fc8e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e56640be5120787eb52784648d8b866e/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/efa87a10a5114c05446e6b6dfef7ac11/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/807d36b6900d99ff7575ee0d0f836b84/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9302b1bc078fdb7ccea9144ed4ea53d7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/52d30310baaab3286b6c5621da86491c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/70f2b9eeaf4c5105ccaadfdbb7f47667/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3ab1ff144b38866978631c594f98de71/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f317daa65ec9d64071885815aeb9f4f6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ef4f11b4f114621084a0b7d7dd086213/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0511a478921a8b2ca2b3ebbe353bdfb/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5204f95f6ff9e818bbb69dfef1ccd280/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8fd08be6027ea4efc6d1333bdbbd2b63/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/36b808bda23d03c3cfb38ff35cad572c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/850a9fe3aefd15b8da6a2fba685b9d84/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4bda7c106900f03286851f9dc4a9f4b1/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
+INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
 	package
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:1-87:12
 		INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.FOREGROUND_SERVICE
@@ -124,22 +123,22 @@ ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/sr
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:7:22-74
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:8:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:25:5-68
 	android:name
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:8:22-65
 application
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:10:5-84:19
-MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/660926f3a8a9fbc09e5d85e0cf7b4288/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/660926f3a8a9fbc09e5d85e0cf7b4288/AndroidManifest.xml:28:5-29:19
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:10:5-85:19
+MERGED from [com.facebook.android:facebook-login:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5dcb369bbca65ccfb6661618f744671e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5dcb369bbca65ccfb6661618f744671e/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-share:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/adb573419ad463c22b986d17438dc14e/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-share:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/adb573419ad463c22b986d17438dc14e/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2b02ce3152f70e27494a2c7d0edca4b2/AndroidManifest.xml:22:5-20
@@ -148,64 +147,62 @@ MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gra
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:28:5-35:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7b2dc62dd5dc23f42aae98b14e2dae19/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7b2dc62dd5dc23f42aae98b14e2dae19/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:28:5-34:19
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:28:5-34:19
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dfe0013d1929a96bccba305eec8dd828/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dfe0013d1929a96bccba305eec8dd828/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f94b223a95bb35b3232f4ef2ebfd8e42/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f94b223a95bb35b3232f4ef2ebfd8e42/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7eab4ff91a9d06f77fde78ae0c54fee1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7eab4ff91a9d06f77fde78ae0c54fee1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c7c90e0d289dcc5722bd4b04abdd2075/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c7c90e0d289dcc5722bd4b04abdd2075/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1404a122d304d305138b8b1fbcb9cfb9/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1404a122d304d305138b8b1fbcb9cfb9/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dc809f70716344f48418acbd7ef9de18/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dc809f70716344f48418acbd7ef9de18/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ee15f0946c39f4041626688ead581122/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ee15f0946c39f4041626688ead581122/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/305806e84fb7d4354e4e7cff6a687eef/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/305806e84fb7d4354e4e7cff6a687eef/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/45fa3c896168498a624b49d7177cfbad/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/45fa3c896168498a624b49d7177cfbad/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/50297785a55494a16c66645546a2e42e/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/50297785a55494a16c66645546a2e42e/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:22:5-26:19
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/23e33de80c0566934dc36eb28e21edb8/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/23e33de80c0566934dc36eb28e21edb8/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b2d97c02fe175bd8736eed84202f4968/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b2d97c02fe175bd8736eed84202f4968/AndroidManifest.xml:10:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/0851a1b181d093a56883801e5e2a0837/AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/0851a1b181d093a56883801e5e2a0837/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f13406c58ff8b295472ca291ce7375e6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f13406c58ff8b295472ca291ce7375e6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/80ca6cc531992564921df37a634c667f/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/80ca6cc531992564921df37a634c667f/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19ed676967c0e47dcac26532709d8e2e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19ed676967c0e47dcac26532709d8e2e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c802cf78aa036dde7f2069e4d91016c8/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c802cf78aa036dde7f2069e4d91016c8/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dba8172c0a891ef1c7bf67bca936a9eb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dba8172c0a891ef1c7bf67bca936a9eb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/faf9b36607fc71e2f44b70a79ea84af0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/faf9b36607fc71e2f44b70a79ea84af0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/632fb4f0d3d2accb4d4968cc945791d9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/632fb4f0d3d2accb4d4968cc945791d9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1cf70b2220d9edfb917660ad24a988b6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1cf70b2220d9edfb917660ad24a988b6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/147b5ada61c3f90ed921225cc514132d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/147b5ada61c3f90ed921225cc514132d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/440c694bf03de9a32e41a6bb0d2b0607/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/440c694bf03de9a32e41a6bb0d2b0607/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:22:5-26:19
 MERGED from [com.facebook.android:facebook-core:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/97cd05af026e0a8f22e1230e29640a36/AndroidManifest.xml:28:5-59:19
 MERGED from [com.facebook.android:facebook-core:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/97cd05af026e0a8f22e1230e29640a36/AndroidManifest.xml:28:5-59:19
-MERGED from [androidx.core:core:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b0b5d0bd5d3339cd1c35552909c546bd/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b0b5d0bd5d3339cd1c35552909c546bd/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cc7580414d04c857b351d576039890e7/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cc7580414d04c857b351d576039890e7/AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e7baac660d56095a8d747560c9d1df01/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e7baac660d56095a8d747560c9d1df01/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e56640be5120787eb52784648d8b866e/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e56640be5120787eb52784648d8b866e/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b0b5d0bd5d3339cd1c35552909c546bd/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
@@ -309,117 +306,69 @@ ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/sr
 	android:name
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:61:13-58
 provider#com.facebook.FacebookContentProvider
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:64:9-66:39
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:64:9-67:39
 	android:authorities
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:64:19-97
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:66:13-91
 	android:exported
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:66:13-36
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:67:13-36
 	android:name
 		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:65:13-64
 activity#com.facebook.FacebookActivity
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:68:9-71:48
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:69:9-72:48
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:29:9-32:66
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:71:13-45
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:72:13-45
 	android:configChanges
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:70:13-96
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:71:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:69:13-57
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:70:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:72:9-83:20
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:73:9-84:20
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:34:9-67
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:34:9-67
 	android:exported
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:74:13-36
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:75:13-36
 	android:name
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:73:13-58
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:74:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:75:13-82:29
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:76:13-83:29
 action#android.intent.action.VIEW
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:76:17-69
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:77:17-69
 	android:name
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:76:25-66
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:77:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:78:17-76
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:79:17-76
 	android:name
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:78:27-73
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:79:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:79:17-78
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:80:17-78
 	android:name
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:79:27-75
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:80:27-75
 data
-ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:81:17-75
+ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:82:17-75
 	android:scheme
-		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:81:23-72
+		ADDED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml:82:23-72
 uses-sdk
 INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4a674ac8d2bfd884c814a35de2fd7992/AndroidManifest.xml:20:5-44
 MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4a674ac8d2bfd884c814a35de2fd7992/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/660926f3a8a9fbc09e5d85e0cf7b4288/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/660926f3a8a9fbc09e5d85e0cf7b4288/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5dcb369bbca65ccfb6661618f744671e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5dcb369bbca65ccfb6661618f744671e/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-share:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/adb573419ad463c22b986d17438dc14e/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-share:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/adb573419ad463c22b986d17438dc14e/AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.android.material:material:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2b02ce3152f70e27494a2c7d0edca4b2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2b02ce3152f70e27494a2c7d0edca4b2/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:24:5-26:41
-MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/bb942f20b38822125bf72cdbf9a4c9d5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/bb942f20b38822125bf72cdbf9a4c9d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6bf8be94b76650049eeb9092da6a413e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6bf8be94b76650049eeb9092da6a413e/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7b2dc62dd5dc23f42aae98b14e2dae19/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7b2dc62dd5dc23f42aae98b14e2dae19/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/40d643e9f91a52c31467ca7d9a1ceed7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/40d643e9f91a52c31467ca7d9a1ceed7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dfe0013d1929a96bccba305eec8dd828/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dfe0013d1929a96bccba305eec8dd828/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ea003d20fcb97153366867c2c4d155bf/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ea003d20fcb97153366867c2c4d155bf/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1b47a1266c5c0f61713bc8042261a8e7/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1b47a1266c5c0f61713bc8042261a8e7/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f94b223a95bb35b3232f4ef2ebfd8e42/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f94b223a95bb35b3232f4ef2ebfd8e42/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7eab4ff91a9d06f77fde78ae0c54fee1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/7eab4ff91a9d06f77fde78ae0c54fee1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c7c90e0d289dcc5722bd4b04abdd2075/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c7c90e0d289dcc5722bd4b04abdd2075/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1404a122d304d305138b8b1fbcb9cfb9/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1404a122d304d305138b8b1fbcb9cfb9/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dc809f70716344f48418acbd7ef9de18/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dc809f70716344f48418acbd7ef9de18/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ee15f0946c39f4041626688ead581122/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ee15f0946c39f4041626688ead581122/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/305806e84fb7d4354e4e7cff6a687eef/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/305806e84fb7d4354e4e7cff6a687eef/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/45fa3c896168498a624b49d7177cfbad/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/45fa3c896168498a624b49d7177cfbad/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/50297785a55494a16c66645546a2e42e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/50297785a55494a16c66645546a2e42e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1e1c3fb683bec90dce89eb9add7e9c67/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1e1c3fb683bec90dce89eb9add7e9c67/AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/23e33de80c0566934dc36eb28e21edb8/AndroidManifest.xml:5:5-7:41
@@ -436,14 +385,60 @@ MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.6] /Users/yardenswisa
 MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6ac30f5365bd11c4b883707b7e07061a/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/001157362722d1ca2c2f248534d3cf0a/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/001157362722d1ca2c2f248534d3cf0a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f13406c58ff8b295472ca291ce7375e6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f13406c58ff8b295472ca291ce7375e6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a27d7bc48b95e46bee0f94be80848962/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a27d7bc48b95e46bee0f94be80848962/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ad90a3b232c998dd238754a24e9672ae/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ad90a3b232c998dd238754a24e9672ae/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0-alpha08] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f41fa3d403e586ebec8406f33e8ca7b0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0-alpha08] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f41fa3d403e586ebec8406f33e8ca7b0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/20f946c6cb3b66fa495da7029252efa1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/20f946c6cb3b66fa495da7029252efa1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/80ca6cc531992564921df37a634c667f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/80ca6cc531992564921df37a634c667f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a526b592a8c31fe0a203f75425960add/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a526b592a8c31fe0a203f75425960add/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ecd213031a9d012f532238ddaf3a1800/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ecd213031a9d012f532238ddaf3a1800/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19ed676967c0e47dcac26532709d8e2e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19ed676967c0e47dcac26532709d8e2e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c802cf78aa036dde7f2069e4d91016c8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c802cf78aa036dde7f2069e4d91016c8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dba8172c0a891ef1c7bf67bca936a9eb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/dba8172c0a891ef1c7bf67bca936a9eb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/faf9b36607fc71e2f44b70a79ea84af0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/faf9b36607fc71e2f44b70a79ea84af0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/632fb4f0d3d2accb4d4968cc945791d9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/632fb4f0d3d2accb4d4968cc945791d9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1cf70b2220d9edfb917660ad24a988b6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/1cf70b2220d9edfb917660ad24a988b6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/147b5ada61c3f90ed921225cc514132d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/147b5ada61c3f90ed921225cc514132d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/440c694bf03de9a32e41a6bb0d2b0607/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/440c694bf03de9a32e41a6bb0d2b0607/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e85356a263a2243c98c770f2562164d9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e85356a263a2243c98c770f2562164d9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f4f016f346bf3b13b71eeedc37f3bab2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f4f016f346bf3b13b71eeedc37f3bab2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d26dd7e94dcc751e936f1ab109b47612/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d26dd7e94dcc751e936f1ab109b47612/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6b19a24aa1626fef6b78204c72dadb32/AndroidManifest.xml:20:5-44
@@ -456,18 +451,18 @@ MERGED from [com.facebook.android:facebook-core:5.4.0] /Users/yardenswisa/.gradl
 MERGED from [com.facebook.android:facebook-core:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/97cd05af026e0a8f22e1230e29640a36/AndroidManifest.xml:24:5-26:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f4b9821ad13baef7b59c3289a660843d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f4b9821ad13baef7b59c3289a660843d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/22a2ebeef833990362b4cd4c21e04739/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/22a2ebeef833990362b4cd4c21e04739/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fbb9b8573cc2d8f99818b00c4249d5ed/AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fbb9b8573cc2d8f99818b00c4249d5ed/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04c45e177b99b56c330bd601eab292a8/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04c45e177b99b56c330bd601eab292a8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/22a2ebeef833990362b4cd4c21e04739/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/22a2ebeef833990362b4cd4c21e04739/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0-alpha08] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/eccead33ba11c33bec79fbd75c29af86/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0-alpha08] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/eccead33ba11c33bec79fbd75c29af86/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/0b2ce234332537ce573b9f8fcb1169d7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/0b2ce234332537ce573b9f8fcb1169d7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/48a6e2e9a78f90b8cf48e947e318e7d3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/48a6e2e9a78f90b8cf48e947e318e7d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/452a188204dc04342d69e5a0d15dc712/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/452a188204dc04342d69e5a0d15dc712/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e8556a6eb9308efba47c4289415b0668/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e8556a6eb9308efba47c4289415b0668/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19cc8f3b180f58f29bcc0f184ba11102/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/19cc8f3b180f58f29bcc0f184ba11102/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/974d297e03e2a47d6120b60115981f2d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/974d297e03e2a47d6120b60115981f2d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cb9de6f4eb044fa2feba98342b6109ea/AndroidManifest.xml:20:5-44
@@ -478,8 +473,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yarden
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c1c289eaae0d5e61b0e72cc497e3ee07/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/20edf29c485bb8e7b22754d16c7f7d04/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/20edf29c485bb8e7b22754d16c7f7d04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b0b5d0bd5d3339cd1c35552909c546bd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b0b5d0bd5d3339cd1c35552909c546bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3abe40617560b166fe2f0fb7bbacf389/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3abe40617560b166fe2f0fb7bbacf389/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cc7580414d04c857b351d576039890e7/AndroidManifest.xml:5:5-7:41
@@ -492,30 +487,30 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /User
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d715ff6beb36d8ea79cce297eca831d5/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5928555dc735f8de4d204fc3bf70ee91/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5928555dc735f8de4d204fc3bf70ee91/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e7baac660d56095a8d747560c9d1df01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e7baac660d56095a8d747560c9d1df01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/efa87a10a5114c05446e6b6dfef7ac11/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/efa87a10a5114c05446e6b6dfef7ac11/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d92cc0d42101bba944f1ab13ce00fc8e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/d92cc0d42101bba944f1ab13ce00fc8e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e56640be5120787eb52784648d8b866e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e56640be5120787eb52784648d8b866e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/efa87a10a5114c05446e6b6dfef7ac11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/efa87a10a5114c05446e6b6dfef7ac11/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/807d36b6900d99ff7575ee0d0f836b84/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/807d36b6900d99ff7575ee0d0f836b84/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9302b1bc078fdb7ccea9144ed4ea53d7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9302b1bc078fdb7ccea9144ed4ea53d7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/52d30310baaab3286b6c5621da86491c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/52d30310baaab3286b6c5621da86491c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/70f2b9eeaf4c5105ccaadfdbb7f47667/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/70f2b9eeaf4c5105ccaadfdbb7f47667/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3ab1ff144b38866978631c594f98de71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3ab1ff144b38866978631c594f98de71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f317daa65ec9d64071885815aeb9f4f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f317daa65ec9d64071885815aeb9f4f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ef4f11b4f114621084a0b7d7dd086213/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ef4f11b4f114621084a0b7d7dd086213/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0511a478921a8b2ca2b3ebbe353bdfb/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0511a478921a8b2ca2b3ebbe353bdfb/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5204f95f6ff9e818bbb69dfef1ccd280/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5204f95f6ff9e818bbb69dfef1ccd280/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8fd08be6027ea4efc6d1333bdbbd2b63/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8fd08be6027ea4efc6d1333bdbbd2b63/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/36b808bda23d03c3cfb38ff35cad572c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/36b808bda23d03c3cfb38ff35cad572c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/850a9fe3aefd15b8da6a2fba685b9d84/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/850a9fe3aefd15b8da6a2fba685b9d84/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4bda7c106900f03286851f9dc4a9f4b1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/4bda7c106900f03286851f9dc4a9f4b1/AndroidManifest.xml:5:5-44
 INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -531,201 +526,183 @@ ADDED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.grad
 	android:name
 		ADDED from [com.facebook.android:facebook-common:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/e35e63c8db1e6315f94bf2c0e2fe0e7a/AndroidManifest.xml:33:19-68
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:25:13-85
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:29:9-33:19
-MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:29:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:34:13-84
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:34:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/212842c6023abbf12d3f7fdaea7141f1/AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/c843cbf016fa8d727327fe2feabe7402/AndroidManifest.xml:37:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6db37d0e0a752d4f3e119ae2da3ca3f2/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/60df733465b67cc992b9bf5dd9d6f4f8/AndroidManifest.xml:34:13-89
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:24:5-79
+ADDED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/fae8eea744295697adcb6ff2a7da3625/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5928555dc735f8de4d204fc3bf70ee91/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5928555dc735f8de4d204fc3bf70ee91/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:25:22-76
+		ADDED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:25:22-76
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:30:13-32:85
+ADDED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:32:17-82
+		ADDED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/46bdf7ed515244771dde3a00cb36fff0/AndroidManifest.xml:31:17-109
+		ADDED from [com.google.firebase:firebase-database:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/3c40c6711bc5b79ee3a8a3f183b6e603/AndroidManifest.xml:33:17-109
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:30:13-32:85
+ADDED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:32:17-82
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/5b68563811a0be9b0631d7a565e166ea/AndroidManifest.xml:31:17-139
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/73d2df2a755b5f4aede8921dfad7812b/AndroidManifest.xml:31:17-139
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:26:22-79
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:42:25-78
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:50:9-56:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:52:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:51:13-77
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:53:13-55:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:53:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:54:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/a77ffb197f68ad957bc49644f24a43d4/AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/309110feaa566230d76c48f4e9f6c5de/AndroidManifest.xml:42:25-78
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/38c8e68ca26ba06495db4835ab2e4677/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/f0c053da1f264db018da96a575e9da6c/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:12:9-16:39
+ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:14:13-72
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:15:13-37
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:16:13-36
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/04d8c2d151895d9b389dc70957f12f6b/AndroidManifest.xml:13:13-77
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/946fc5732fc70af29b8fa8fc3d22f312/AndroidManifest.xml:13:13-77
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:26:5-110
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:26:22-107
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:31:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:30:13-85
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/9502301cfc64a1e4fde7d16cd7dccffc/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/ac5b93f4d63df9e9b3ac12a12b4fa918/AndroidManifest.xml:29:9-37:20
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6f73eefb75cdbfaeb7c4f143f01ee1bd/AndroidManifest.xml:29:9-37:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:36:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:37:13-36
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:38:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:35:13-100
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:35:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:40:17-79
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:40:25-76
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:44:9-47:40
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:44:9-47:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:46:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:47:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:45:13-84
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:50:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:51:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:52:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cd4395c44f43045d7c40fa7faa4e333b/AndroidManifest.xml:49:13-87
+		ADDED from [com.google.android.gms:play-services-measurement:17.1.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/599b7335c50faf28f84ce787e09103e7/AndroidManifest.xml:49:13-87
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/b227135b2d67beb4f56422aa7c5d95a7/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/cddf022b54fba993091fccc2921980ba/AndroidManifest.xml:24:13-58
 provider#com.facebook.internal.FacebookInitProvider
 ADDED from [com.facebook.android:facebook-core:5.4.0] /Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/97cd05af026e0a8f22e1230e29640a36/AndroidManifest.xml:39:9-42:40
 	android:authorities

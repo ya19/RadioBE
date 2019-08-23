@@ -36,7 +36,9 @@
     <string name="registration">הרשמה</string>
     <string name="remember_me">זכור אותי</string>
     <string name="sign_up">הרשם</string>
+    <string name="title_activity_main_screen">מסך ראשי</string>
     <string name="title_activity_profile">פרופיל</string>
     <string name="title_activity_radio">ActivityRadio</string>
+    <string name="title_menu_log_out">התנתק/י</string>
     <string name="views_item">צפיות</string>
 </resources>

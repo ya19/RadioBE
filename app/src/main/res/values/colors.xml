@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#F6174C45</color>
     <color name="colorAccent">#D81B60</color>
     <color name="notification_bg">#e91e63</color>
@@ -8,4 +8,6 @@
     <color name="com_facebook_button_background_color_focused_disabled">#3C5A99</color>
     <color name="com_facebook_button_background_color_focused">#3C5A99</color>
     <color name="com_facebook_button_border_color_focused">#3C5A99</color>
+    <color name="main_backround">#999999</color>
+    <color name="white">#ffffff</color>
 </resources>

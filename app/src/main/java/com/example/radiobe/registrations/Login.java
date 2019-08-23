@@ -52,7 +52,6 @@ public class Login extends AppCompatActivity {
     private SignInButton signInButtonGoogle;
     private LoginButton loginButtonFacebook;
     private CallbackManager callbackManager;
-
     private FirebaseAuth firebaseAuth;
     private FirebaseUser firebaseUser;
     private AccessToken accessToken;
@@ -60,8 +59,8 @@ public class Login extends AppCompatActivity {
     private GoogleSignInOptions googleSignInbuilder;
     boolean isUserInDatabase = false;
 
-    //
-//    CallbackManager callbackManager;
+
+    //CallbackManager callbackManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +68,7 @@ public class Login extends AppCompatActivity {
         callbackManager = CallbackManager.Factory.create();
         setupView();
 
-// Initialize Firebase Auth
+        //Initialize Firebase Auth
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
 
@@ -106,13 +105,7 @@ public class Login extends AppCompatActivity {
                 userName = etName.getText().toString();
                 password = etPassword.getText().toString();
 
-                signIn(userName,password);
-
-
-
-
-
-
+                signIn(userName, password);
 
 
 //                if (checkUserinDatabase(new User(userName, password))) {
@@ -175,7 +168,7 @@ public class Login extends AppCompatActivity {
                         finish();
                     } else {
                         // If sign in fails, display a message to the user.
-                        System.out.println("signInWithEmail:failure"+task.getException());
+                        System.out.println("signInWithEmail:failure" + task.getException());
                         Toast.makeText(this, "התחברות נכשלה, שם משתמש או סיסמא לא נכונים.", Toast.LENGTH_SHORT).show();
                     }
                 });
@@ -231,7 +224,6 @@ public class Login extends AppCompatActivity {
         loginButtonFacebook = findViewById(R.id.login_button);
     }
 }
-
 
 
 //Google SignIn
