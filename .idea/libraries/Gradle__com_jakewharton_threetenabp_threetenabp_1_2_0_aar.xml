@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.jakewharton.threetenabp:threetenabp:1.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0851a1b181d093a56883801e5e2a0837/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0851a1b181d093a56883801e5e2a0837/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4324a7b12f5e76b033309e1555a2fc4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4324a7b12f5e76b033309e1555a2fc4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -16,6 +16,8 @@
     </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
+
+        <item>@font/boogaloo</item>
         <item>@font/david_libre</item>
     </array>
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>

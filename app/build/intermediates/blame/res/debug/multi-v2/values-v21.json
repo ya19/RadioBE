@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "C:\\AndroidProject\\NewGitHubClone\\RadioBE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/8569610807db653f6285f447218ed4bf/res/values-v21/values-v21.xml",
+                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\83699b7ca8ecf1c67c4d18a6a10e801f\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "271,274,278,282",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19740,19908,20197,20493",
+                        "endLines": "273,276,280,284",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "19903,20066,20360,20655"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\b67117b307c6b494c6c9d94369b109eb\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/2b02ce3152f70e27494a2c7d0edca4b2/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,10,18,26",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,484,910,1333",
-                        "endLines": "9,17,25,33",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "479,905,1328,1763"
-                    },
-                    "to": {
-                        "startLines": "285,293,301,309",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "20660,21089,21515,21938",
-                        "endLines": "292,300,308,316",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "21084,21510,21933,22368"
-                    }
-                },
-                {
-                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6bf8be94b76650049eeb9092da6a413e/res/values-v21/values-v21.xml",
+                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\3cc34f9e2859b31d06e578436f350fe9\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,106,109,152,155,158,160,162,164,167,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,220,222,223,224,234,235,236,248",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,14 +61,14 @@
                     }
                 },
                 {
-                    "source": "/Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/src/main/res/values-v21/styles.xml",
+                    "source": "C:\\AndroidProject\\NewGitHubClone\\RadioBE\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "17",
+                        "startOffsets": "19",
                         "endLines": "6",
                         "endColumns": "12",
-                        "endOffsets": "240"
+                        "endOffsets": "246"
                     },
                     "to": {
                         "startLines": "6",
@@ -80,22 +80,22 @@
                     }
                 },
                 {
-                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/001157362722d1ca2c2f248534d3cf0a/res/values-v21/values-v21.xml",
+                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\873510cd89b83c93312058426ef1a57d\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,5,8,11",
+                        "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
+                        "startOffsets": "55,484,910,1333",
+                        "endLines": "9,17,25,33",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "479,905,1328,1763"
                     },
                     "to": {
-                        "startLines": "271,274,278,282",
+                        "startLines": "285,293,301,309",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "19740,19908,20197,20493",
-                        "endLines": "273,276,280,284",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "19903,20066,20360,20655"
+                        "startOffsets": "20660,21089,21515,21938",
+                        "endLines": "292,300,308,316",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "21084,21510,21933,22368"
                     }
                 }
             ]
