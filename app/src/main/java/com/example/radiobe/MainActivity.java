@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
     private Button btnLogin;
     FirebaseUser firebaseUser;
 
+    //change test
+    public void someFunc(){
+    
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, ActivityRadio.class);
             startActivity(intent);
         });
+
 
 
     }
