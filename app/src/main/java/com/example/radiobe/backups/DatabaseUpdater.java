@@ -62,7 +62,7 @@
 //
 ////            case 4:
 ////                StreamDAO.getInstance().saveToDataBase(item);
-////                break;      //TODO: maybe seperate to Users and streams database updaters.
+////                break;
 //
 //            case 5:
 //                StreamDAO.getInstance().saveUserToDataBase(user);
@@ -79,10 +79,10 @@
 ////
 ////        switch (action){
 ////            case 5:
-////                //TODO: something with the users.
+////                // something with the users.
 ////
 ////
-////                //TODO: Check if maybe delete this part cause adding a like scrolls you up to the top of the recycler
+////                // Check if maybe delete this part cause adding a like scrolls you up to the top of the recycler
 ////            default:
 ////                RecyclerView recycler = this.rvRadioItems.get(); //check if what rvSongs is pointing on , is not null
 ////                ProgressBar pb = this.progressBar.get();

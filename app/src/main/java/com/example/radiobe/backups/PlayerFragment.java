@@ -82,7 +82,7 @@
 //            mMediaBrowserHelper.setVolume(0);
 //            });
 //    }
-///** todo: yarden change
+///**
 // * not in use
 // * */
 ////    public void setProgressBarInvisible() {
@@ -101,7 +101,7 @@
 //        sbVolumeSong.disconnectController();
 //        mMediaBrowserHelper.onStop();
 //    }
-///** todo: yarden change
+///**
 // * not in use
 // * */
 ////    public void initTvTime(View view) {

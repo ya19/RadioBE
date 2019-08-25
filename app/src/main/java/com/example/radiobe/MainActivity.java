@@ -20,16 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btnLogin;
     FirebaseUser firebaseUser;
 
-    //this is a new change for github
-
-
-    // asdas
-    // yarden change
-    //random buttons for github testing
-    private Button yarden;
-    private Button gitHub;
-    //test
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -86,7 +86,7 @@
 //    }
 //
 //
-//    //TODO: read streamsQuery and check if exits in database, if not add.
+//    //read streamsQuery and check if exits in database, if not add.
 //    public void parseJson() {
 //        String dataBaseLink = "http://be.repoai.com:5080/WebRTCAppEE/rest/broadcast/getVodList/0/100?fbclid=IwAR2rtbhZkchHYZ3rbREpP0gaqNVPkvNn7phnQthgM4OO1gl5elu5zZjlQrk";
 //        try {
@@ -112,21 +112,21 @@
 //
 //                    String vodName = radioItem.getString("vodName");
 //                    String change = vodName.replace('_', ' ');
-//                    String itemName = change.replace(".mp4", ""); //todo replace .mp4 to ' '
+//                    String itemName = change.replace(".mp4", ""); // replace .mp4 to ' '
 //                    long creationDate = radioItem.getLong("creationDate");
 //
 //                    String creationDateString = DateFormat.format("dd/MM/yyyy", new Date(creationDate)).toString();
 //
 //
 //                    long duration = radioItem.getInt("duration");
-//                    String filePath = "http://be.repoai.com:5080/WebRTCAppEE/streams/home/" + vodName;              //todo: notice that i changed the duration to long if there's any problem
+//                    String filePath = "http://be.repoai.com:5080/WebRTCAppEE/streams/home/" + vodName;              //: notice that i changed the duration to long if there's any problem
 //
 //                    RadioItem item = new RadioItem(duration, vodName, itemName, creationDate , creationDateString, filePath);
 //                    //            streams.add(item);
 //
 //                    streams.add(item);
 ////                    new DatabaseUpdater(DatabaseUpdater.SAVE_STREAM, item).execute();
-////                    saveToDataBase(item); //todo check how to save outside the FOR loop
+////                    saveToDataBase(item); // check how to save outside the FOR loop
 //                }
 //
 //                saveItemsToDataBase(streams);

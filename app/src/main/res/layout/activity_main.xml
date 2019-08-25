@@ -17,7 +17,8 @@
         android:text="@string/radio_live_login_btn"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <Button
         android:id="@+id/btnLogin"
@@ -25,9 +26,12 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/shadow_buttons"
+        android:background="@drawable/shape_radios_border_button_blue"
+        android:fontFamily="@font/boogaloo"
         android:text="@string/log_in"
         android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -43,6 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/loading_radio"/>
+        app:srcCompat="@drawable/loading_radio"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

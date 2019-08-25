@@ -7,11 +7,13 @@
         <shape>
             <gradient
                 android:angle="270"
-                android:startColor="#deecff"
-                android:endColor="#c6cfff"/>
+                android:startColor="#F9B882"
+                android:centerColor="#FFFFFF"
+                android:endColor="#F9B882"/>
             <stroke
                 android:width="2dp"
-                android:color="#c6cfff" />
+                android:color="#40FFFFFF"
+                />
             <corners
                 android:radius="10dp" />
             <padding

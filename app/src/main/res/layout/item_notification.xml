@@ -19,45 +19,49 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clNotifications"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_radius_border_white">
 
-        <ImageView
+
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/ivImageNotif"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/tvNotifDescription"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/microphone"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/tvNotifDescription"
-            app:srcCompat="@mipmap/ic_launcher_round" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tvNotifTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="title notification"
+            android:text="@string/title_notification"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/ivImageNotif"
+            app:layout_constraintStart_toStartOf="@+id/tvNotifDescription"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tvNotifDescription"
-            android:layout_width="0dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:padding="4dp"
-            android:text="description description description description description description description description"
+            android:padding="8dp"
+            android:text="description of the notification \ndescription of the notification \ndescription of the notification"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/tvNotifTime"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ivImageNotif"
-            app:layout_constraintTop_toBottomOf="@+id/tvNotifTitle" />
+            app:layout_constraintTop_toBottomOf="@+id/tvNotifTitle"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/tvNotifTime"
@@ -65,9 +69,9 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="time/date"
+            android:text="@string/time_date"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="@+id/tvNotifDescription" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

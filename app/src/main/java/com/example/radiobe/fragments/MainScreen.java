@@ -48,7 +48,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
 //        logOutBtn = findViewById(R.id.logOutBtn);
         navigation = findViewById(R.id.navigation);
         viewPager = findViewById(R.id.container);
-         toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         navigation.setOnNavigationItemSelectedListener(this);
@@ -61,7 +61,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
 //        navigation.setSelectedItemId(R.id.navigation_home);
 
 
-        if(firebaseUser != null) {
+        if (firebaseUser != null) {
             Toast.makeText(this, firebaseUser.getEmail() + " login successful", Toast.LENGTH_SHORT).show();
         }
 
@@ -103,7 +103,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
 
             @Override
             public void onPageSelected(int position) {
-                switch(position){
+                switch (position) {
                     case 3:
                         navigation.setSelectedItemId(R.id.navigation_home);
                         break;
@@ -129,13 +129,12 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
         });
 
 
-
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
-        switch(menuItem.getItemId()){
+        switch (menuItem.getItemId()) {
             case R.id.navigation_home:
 //                fm.beginTransaction().replace(R.id.container, new AllPrograms()).commit();
                 viewPager.setCurrentItem(3);
@@ -162,13 +161,13 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
         return false;
     }
 
-//    menu
-@Override
-public boolean onCreateOptionsMenu(Menu menu) {
-    // Inflate the menu; this adds items to the action bar if it is present.
-    getMenuInflater().inflate(R.menu.menu_main_screen, menu);
-    return true;
-}
+    //    menu
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main_screen, menu);
+        return true;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -180,8 +179,8 @@ public boolean onCreateOptionsMenu(Menu menu) {
         //noinspection SimplifiableIfStatement
         if (id == R.id.profile_menu) {
             return true;
-        }else if(id == R.id.logout_menu){
-            if(FirebaseAuth.getInstance().getCurrentUser() != null) {
+        } else if (id == R.id.logout_menu) {
+            if (FirebaseAuth.getInstance().getCurrentUser() != null) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setMessage(getString(R.string.logOutDialog))
                         .setPositiveButton(getString(R.string.Ok), new DialogInterface.OnClickListener() {
@@ -201,15 +200,15 @@ public boolean onCreateOptionsMenu(Menu menu) {
                         });
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
-            } else{
+            } else {
                 Toast.makeText(this, "There is no user currently logged in!", Toast.LENGTH_SHORT).show();
             }
 
             return true;
-        }else if(id == R.id.settings_nemu){
+        } else if (id == R.id.settings_nemu) {
             Intent intent = new Intent(MainScreen.this, Settings.class);
             startActivity(intent);
-            return  true;
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

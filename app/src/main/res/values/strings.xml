@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Radio be</string>
+    <string name="app_name"></string>
     <string name="all_programs">All Programs</string>
     <string name="most_watched">Most Viewed</string>
     <string name="recently_added">recently added</string>
@@ -44,7 +44,19 @@
     <string name="cancel">Cancel</string>
     <string name="title_activity_main_screen">Main Screen</string>
     <string name="title_menu_log_out">Log Out</string>
-
+    <string name="radio_item_duration" translatable="false">duration</string>
+    <string name="title_radio_item" translatable="false">title</string>
+    <string name="togglebutton_play_radio_item" translatable="false">ToggleButton</string>
+    <string name="play_radio_item" translatable="false">PLAY</string>
+    <string name="stop_radio_item" translatable="false">STOP</string>
+    <string name="creation_date_radio_item" translatable="false">creationDate</string>
+    <string name="enter_your_comment">Enter your comment...</string>
+    <string name="submit">submit</string>
+    <string name="recommended_for_you">Recommended For You</string>
+    <string name="last_shows_that_add">Last shows that add</string>
+    <string name="my_lists">My Lists</string>
+    <string name="title_notification">title notification</string>
+    <string name="time_date">time/date</string>
 
 
 </resources>

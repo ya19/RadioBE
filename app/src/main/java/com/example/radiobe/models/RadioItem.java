@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 public class RadioItem {
 
     //props
-    private String shadran; //TODO delete the shadran
     private String itemName;
     private String filePath;
     private long creationDate;
@@ -42,8 +41,7 @@ public class RadioItem {
 
 
     //from Database ctor.
-    public RadioItem(String shadran, long duration, String creationDateString, int likes, int views, int comments, int resImage , String _id, String _rev, String itemName , String filePath, String durationString ) {
-        this.shadran = shadran;
+    public RadioItem(long duration, String creationDateString, int likes, int views, int comments, int resImage , String _id, String _rev, String itemName , String filePath, String durationString ) {
         this.duration = duration;
         this.creationDateString = creationDateString;
         this.likes = likes;
@@ -60,8 +58,7 @@ public class RadioItem {
     }
 
     //from firebase
-    public RadioItem(String shadran, long duration, String creationDateString, int likes, int views, int comments, int resImage , String mUid, String itemName , String filePath, String durationString ) {
-        this.shadran = shadran;
+    public RadioItem(long duration, String creationDateString, int likes, int views, int comments, int resImage , String mUid, String itemName , String filePath, String durationString ) {
         this.duration = duration;
         this.creationDateString = creationDateString;
         this.likes = likes;
@@ -99,12 +96,6 @@ public class RadioItem {
 
 
     //getters setters
-    public String getShadran() {
-        return shadran;
-    }
-    public void setShadran(String shadran) {
-        this.shadran = shadran;
-    }
     public long getDuration() {
         return duration;
     }
@@ -268,8 +259,7 @@ public class RadioItem {
 
     @Override
     public String toString() {
-        return "RadioItem{" +
-                "shadran='" + shadran + '\'' +
+        return "RadioItem{" + '\'' +
                 ", itemName='" + itemName + '\'' +
                 ", filePath='" + filePath + '\'' +
                 ", creationDate=" + creationDate +
