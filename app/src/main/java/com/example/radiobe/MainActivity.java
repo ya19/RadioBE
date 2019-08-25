@@ -20,10 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnLogin;
     FirebaseUser firebaseUser;
 
-    //change test
-    public void someFunc(){
-    
-    }
+    //new change test - deleted func
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
