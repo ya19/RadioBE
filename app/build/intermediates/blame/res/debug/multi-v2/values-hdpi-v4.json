@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yardenswisa/Desktop/Development/Android/RadioBe/RadioBE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "C:\\AndroidProject\\NewGitHubClone\\RadioBE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/yardenswisa/.gradle/caches/transforms-2/files-2.1/6bf8be94b76650049eeb9092da6a413e/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "C:\\Users\\שחף\\.gradle\\caches\\transforms-2\\files-2.1\\3cc34f9e2859b31d06e578436f350fe9\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
