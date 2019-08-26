@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -28,6 +30,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -38,26 +41,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.threeten.bp.LocalDate;
 
-public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.RadioViewHolder> {
+public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.RadioViewHolder> implements Filterable {
     //    List<RadioItem> items;
     List<RadioItem> streams;
     RecyclerView recyclerView;
     ProgressBar progressBar;
     FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
     Context context;
-//    public static List<RadioItem> filteredByShahaf = new ArrayList<>();
-//    public static List<RadioItem> filteredByYarden = new ArrayList<>();
-//    public static List<RadioItem> filteredBySDaniel = new ArrayList<>();
-//    private MyItemsRepository myItemsRepository;
-
-//    public RadioItemsAdapter(List<RadioItem> items, Context context) {
-//
-//        this.items = items;
-//        this.context = context;
-//    }
+    List<RadioItem> filteredStreams;
 
     public RadioItemsAdapter(List<RadioItem> streams, RecyclerView recyclerView, ProgressBar pb, Context context) {
         this.streams = streams;
+        //change 1
+        this.filteredStreams = streams;
         this.recyclerView = recyclerView;
         this.progressBar = pb;
         this.context = context;
@@ -79,9 +75,12 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
 
 
 
+
     @Override
     public void onBindViewHolder(@NonNull RadioViewHolder holder, int position) {
-        RadioItem radioItem = streams.get(position);
+        //change 2
+        RadioItem radioItem = filteredStreams.get(position);
+//        RadioItem radioItem = streams.get(position);
         holder.tvFileName.setText(radioItem.getItemName());
 //        holder.tvDuration.setText(String.valueOf(radioItem.getDuration()));
         holder.tvDuration.setText(radioItem.getDurationString());
@@ -112,6 +111,7 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
         holder.addComment.setOnClickListener((v) -> {
             holder.addCommentEditText.setEnabled(true);
             holder.addCommentEditText.setVisibility(View.VISIBLE);
+            holder.closeCommentButton.setVisibility(View.VISIBLE);
             holder.sendButton.setVisibility(View.VISIBLE);
 
             holder.sendButton.setOnClickListener((button) -> {
@@ -136,6 +136,16 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
                 }
             });
             //TODO open a input box for comment with button to send and to exit
+
+            holder.closeCommentButton.setOnClickListener((b) -> {
+                holder.addCommentEditText.setVisibility(View.GONE);
+                holder.sendButton.setVisibility(View.GONE);
+                holder.closeCommentButton.setVisibility(View.GONE);
+
+                holder.addCommentEditText.setText("");
+                holder.addCommentEditText.setEnabled(false);
+            });
+
         });
 
 
@@ -187,10 +197,47 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
     }
 
 
-
+//change 3
     @Override
     public int getItemCount() {
-        return streams.size();
+        return filteredStreams.size();
+    }
+
+    @Override
+    public Filter getFilter() {
+            return new Filter() {
+                @Override
+                protected FilterResults performFiltering(CharSequence charSequence) {
+                    String charString = charSequence.toString();
+                    if (charString.isEmpty()) {
+                        filteredStreams = streams;
+                    } else {
+                        List<RadioItem> filteredList = new ArrayList<>();
+                        for (RadioItem row : streams) {
+
+                            // name match condition. this might differ depending on your requirement
+                            // here we are looking for name or phone number match
+                            if (row.getVodName().toLowerCase().contains(charString.toLowerCase())) {
+                                filteredList.add(row);
+                            }
+                        }
+
+                        filteredStreams = filteredList;
+                    }
+
+                    FilterResults filterResults = new FilterResults();
+                    filterResults.values = filteredStreams;
+                    return filterResults;
+                }
+
+                @Override
+                protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+                    filteredStreams = (ArrayList<RadioItem>) filterResults.values;
+
+                    // refresh the list with filtered data
+                    notifyDataSetChanged();
+                }
+            };
     }
 
     class RadioViewHolder extends RecyclerView.ViewHolder {
@@ -209,6 +256,7 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
         TextView tvViews;
         EditText addCommentEditText;
         ImageButton sendButton;
+        ImageButton closeCommentButton;
 //        TextView tvCloudID;
 
 
@@ -229,6 +277,7 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
             addLike = itemView.findViewById(R.id.addLike);
             addCommentEditText = itemView.findViewById(R.id.commentEditText);
             sendButton = itemView.findViewById(R.id.sendButton);
+            closeCommentButton = itemView.findViewById(R.id.closeCommentButton);
 
 //            tvCloudID = itemView.findViewById(R.id.tvCloudID);
         }

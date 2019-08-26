@@ -1,5 +1,6 @@
 package com.example.radiobe.fragments;
 
+import android.app.SearchManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -31,7 +32,10 @@ import androidx.recyclerview.widget.RecyclerView;
 public class AllPrograms extends Fragment {
     private RecyclerView recyclerView;
 //    private RadioItemsAdapter adapter;
-    private SearchView sv;
+
+    RadioItemsDataSource source;
+    private SearchView searchView;
+
     private TabLayout tabs;
     private ProgressBar progressBar;
     private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
@@ -61,7 +65,40 @@ public class AllPrograms extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = view.findViewById(R.id.recycler);
         progressBar = view.findViewById(R.id.progressBar);
-        new RadioItemsDataSource(recyclerView, progressBar).execute();
+
+        searchView = view.findViewById(R.id.searchView);
+        if (getActivity() != null) {
+
+            System.out.println("SearchManager Should Work");
+            SearchManager searchManager = (SearchManager) getActivity().getSystemService(Context.SEARCH_SERVICE);
+            searchView.setSearchableInfo(searchManager
+                    .getSearchableInfo(getActivity().getComponentName()));
+        }
+
+
+//        new RadioItemsDataSource(recyclerView, progressBar).execute();
+        source = new RadioItemsDataSource(recyclerView, progressBar);
+        source.execute();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+
+                if (source.adapter != null) {
+                    System.out.println("Not Null");
+                    source.adapter.getFilter().filter(query);
+                }
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                if (source.adapter != null) {
+                    System.out.println("Not Null");
+                    source.adapter.getFilter().filter(newText);
+                }
+                return false;
+            }
+        });
 
     }
 
@@ -69,7 +106,6 @@ public class AllPrograms extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LocalBroadcastManager.getInstance(getContext()).registerReceiver(broadcastReceiver, new IntentFilter("share_facebook"));
-
     }
 
     @Override

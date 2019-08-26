@@ -23,7 +23,7 @@
 <!--Yarden - i removed the sort of the shows
 and moved the search bar to the main screen -->
 
-    <SearchView
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
         android:layout_width="0dp"
         android:background="#2258DD"

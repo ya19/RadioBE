@@ -19,4 +19,5 @@
         android:title="@string/title_menu_log_out"
         android:icon="@drawable/logout_icon"
         app:showAsAction="never" />
+
 </menu>

@@ -56,7 +56,8 @@ public class RadioItemsDataSource extends AsyncTask<Void, Void, List<RadioItem>>
 
     private WeakReference<RecyclerView> rvRadioItems;
     private WeakReference<ProgressBar> progressBar;
-
+    public RadioItemsAdapter adapter;
+    public String shahaf = "shahaf";
 
     public RadioItemsDataSource(RecyclerView rvRadioItems, ProgressBar progressBar) {
         this.rvRadioItems = new WeakReference<>(rvRadioItems);
@@ -87,7 +88,7 @@ public class RadioItemsDataSource extends AsyncTask<Void, Void, List<RadioItem>>
         if (recycler == null) return;
 
         Context context = recycler.getContext();
-        RadioItemsAdapter adapter = new RadioItemsAdapter(streams,recycler , pb, context);
+        adapter = new RadioItemsAdapter(streams,recycler , pb, context);
         recycler.setAdapter(adapter);
 
         recycler.setLayoutManager(new LinearLayoutManager(context));//may change to a different manager (grid, staggered..)
