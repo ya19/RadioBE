@@ -21,11 +21,5 @@
         android:title=""
         />
 
-    <item
-        android:id="@+id/navigation_radio"
-        android:icon="@drawable/ic_radio"
-        android:title=""
-
-        />
 
 </menu>

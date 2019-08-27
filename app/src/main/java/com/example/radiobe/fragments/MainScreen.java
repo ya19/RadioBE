@@ -1,8 +1,11 @@
 package com.example.radiobe.fragments;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -14,8 +17,14 @@ import com.example.radiobe.MainActivity;
 import com.example.radiobe.R;
 import com.example.radiobe.adapters.MainScreenAdapter;
 import com.example.radiobe.generalScreens.Settings;
-import com.example.radiobe.radioLive.ExoPlayerView;
 import com.facebook.login.LoginManager;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareDialog;
+import com.google.android.exoplayer2.ExoPlayerFactory;
+import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.source.ExtractorMediaSource;
+import com.google.android.exoplayer2.ui.PlayerView;
+import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -39,10 +48,55 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
     FirebaseUser firebaseUser;
     Button logOutBtn;
 
+    String fileName;
+    String filePath;
+    private PlayerView playerView;
+    private SimpleExoPlayer simpleExoPlayer;
+
+    private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String filePath = intent.getStringExtra("stream_url");
+            ShareLinkContent content = new ShareLinkContent.Builder()
+                    .setContentUrl(Uri.parse(filePath))
+                    .build();
+
+            ShareDialog.show(MainScreen.this, content);
+
+        }
+    };
+
+    BroadcastReceiver mediaBroadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            System.out.println("Got Broadcast");
+            fileName = intent.getStringExtra("stream_name");
+            filePath = intent.getStringExtra("stream_url");
+            boolean play = intent.getBooleanExtra("play", false);
+            if(play)
+                loadDataToplayer(fileName, filePath);
+            else{
+                simpleExoPlayer.stop();
+            }
+
+        }
+    };
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(broadcastReceiver);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, new IntentFilter("share_facebook"));
+        LocalBroadcastManager.getInstance(this).registerReceiver(mediaBroadcastReceiver, new IntentFilter("play_song"));
+
         setContentView(R.layout.activity_mainscreen);
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 //        logOutBtn = findViewById(R.id.logOutBtn);
@@ -50,6 +104,13 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
         viewPager = findViewById(R.id.container);
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        playerView = findViewById(R.id.playerView);
+        // Setup Exoplayer instance
+        simpleExoPlayer = ExoPlayerFactory.newSimpleInstance(this);
+        playerView.setPlayer(simpleExoPlayer);
+        playerView.setControllerHideOnTouch(false);
+        playerView.setControllerShowTimeoutMs(0);
 
         navigation.setOnNavigationItemSelectedListener(this);
 
@@ -104,20 +165,16 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
             @Override
             public void onPageSelected(int position) {
                 switch (position) {
-                    case 3:
+                    case 2:
                         navigation.setSelectedItemId(R.id.navigation_home);
                         break;
 
-                    case 2:
+                    case 1:
                         navigation.setSelectedItemId(R.id.navigation_favorites);
                         break;
 
-                    case 1:
-                        navigation.setSelectedItemId(R.id.navigation_notifications);
-                        break;
-
                     case 0:
-                        navigation.setSelectedItemId(R.id.navigation_radio);
+                        navigation.setSelectedItemId(R.id.navigation_notifications);
                         break;
                 }
             }
@@ -131,28 +188,41 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
 
     }
 
+    private void loadDataToplayer(String fileName, String filePath) {
+//        newFilePath = getArguments().getString("filePath");
+
+//        filePath = "https://be.repoai.com:5443/LiveApp/streams/vod/אנשים_תכנית_שניה.mp4";
+        //Load DataSorce Uri
+        ExtractorMediaSource uriMediaSource =
+                new ExtractorMediaSource.Factory(
+                        new DefaultHttpDataSourceFactory("Radio be")).
+                        createMediaSource(Uri.parse(filePath));
+
+
+        //Prepare the exoPlayerInstance with the source and play when he Ready
+
+        simpleExoPlayer.prepare(uriMediaSource);
+        simpleExoPlayer.setPlayWhenReady(true);
+    }
+
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         switch (menuItem.getItemId()) {
             case R.id.navigation_home:
 //                fm.beginTransaction().replace(R.id.container, new AllPrograms()).commit();
-                viewPager.setCurrentItem(3);
+                viewPager.setCurrentItem(2);
                 return true;
 
             case R.id.navigation_favorites:
 //                fm.beginTransaction().replace(R.id.container, new Favorites()).commit();
-                viewPager.setCurrentItem(2);
+                viewPager.setCurrentItem(1);
 
                 return true;
 
             case R.id.navigation_notifications:
 //                fm.beginTransaction().replace(R.id.container, new Notifications()).commit();
-                viewPager.setCurrentItem(1);
-                return true;
-
-            case R.id.navigation_radio:
-//                fm.beginTransaction().replace(R.id.container, new RadioLive()).commit();
                 viewPager.setCurrentItem(0);
                 return true;
         }

@@ -38,18 +38,6 @@ public class AllPrograms extends Fragment {
 
     private TabLayout tabs;
     private ProgressBar progressBar;
-    private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            String filePath = intent.getStringExtra("stream_url");
-            ShareLinkContent content = new ShareLinkContent.Builder()
-                    .setContentUrl(Uri.parse(filePath))
-                    .build();
-
-            ShareDialog.show(AllPrograms.this, content);
-
-        }
-    };
 
 
     @Override
@@ -101,19 +89,6 @@ public class AllPrograms extends Fragment {
         });
 
     }
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        LocalBroadcastManager.getInstance(getContext()).registerReceiver(broadcastReceiver, new IntentFilter("share_facebook"));
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        LocalBroadcastManager.getInstance(getContext()).unregisterReceiver(broadcastReceiver);
-    }
-
 
 }
 

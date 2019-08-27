@@ -101,8 +101,10 @@ public class ChangeLikesStatusTask extends AsyncTask<Void, Void, Void> {
                     }
                 }
                     radioItem.setLikes(radioItem.getLikes() + 1);
-                    radioItem.addLike(newUser);
-                    addLike = true;
+                    streamsLikes.add(newUser);
+                    radioItem.setUsersThatLiked(streamsLikes);
+//                    radioItem.addLike(newUser);
+//                    addLike = true;
                     System.out.println("Data liked");
                     streamsDataBase.update(radioItem);
 

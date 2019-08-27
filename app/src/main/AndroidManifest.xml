@@ -43,7 +43,8 @@
         </activity>
         <activity android:name=".registrations.SignUp" />
         <activity android:name=".registrations.Login" />
-        <activity android:name=".fragments.MainScreen">
+        <activity android:name=".fragments.MainScreen"
+            android:windowSoftInputMode="adjustPan">
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />

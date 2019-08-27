@@ -46,6 +46,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import androidx.annotation.NonNull;
@@ -57,7 +59,6 @@ public class RadioItemsDataSource extends AsyncTask<Void, Void, List<RadioItem>>
     private WeakReference<RecyclerView> rvRadioItems;
     private WeakReference<ProgressBar> progressBar;
     public RadioItemsAdapter adapter;
-    public String shahaf = "shahaf";
 
     public RadioItemsDataSource(RecyclerView rvRadioItems, ProgressBar progressBar) {
         this.rvRadioItems = new WeakReference<>(rvRadioItems);
@@ -68,7 +69,15 @@ public class RadioItemsDataSource extends AsyncTask<Void, Void, List<RadioItem>>
     @Override
     protected List<RadioItem> doInBackground(Void... voids) {
 
+
+        //may change it to sort by date..
         List<RadioItem> streams = StreamDAO.getInstance().getStreamsFromDataBase();
+        Collections.sort(streams, new Comparator<RadioItem>() {
+            @Override
+            public int compare(RadioItem o1, RadioItem o2) {
+                return o1.getVodName().compareToIgnoreCase(o2.getVodName()); // To compare string values
+            }
+        });
         return streams;
     }
 

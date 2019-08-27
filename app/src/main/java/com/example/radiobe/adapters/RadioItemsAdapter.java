@@ -149,23 +149,6 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
         });
 
 
-//        holder.tb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-//            @Override
-//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-////                if(isChecked) {
-////                    MusicLibrary.playFromFragment(radioItem);
-//                    StreamDAO.getInstance().handleViews(firebaseUser, radioItem, new ChangeViewsListener() {
-//                        @Override
-//                        public void done() {
-//                            holder.tvViews.setText(String.valueOf(radioItem.getViews()));
-//                        }
-//                    });
-//                }
-//        });
-//
-//        holder.tb.setOnClickListener((v)->{
-//
-//        });
 
         holder.tb.setOnCheckedChangeListener((v, b) -> {
             Intent intent = new Intent("play_song");

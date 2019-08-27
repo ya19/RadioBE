@@ -4,7 +4,6 @@ package com.example.radiobe.adapters;
 import com.example.radiobe.fragments.AllPrograms;
 import com.example.radiobe.fragments.Favorites;
 import com.example.radiobe.fragments.Notifications;
-import com.example.radiobe.radioLive.ExoPlayerView;
 
 
 import androidx.fragment.app.Fragment;
@@ -25,14 +24,14 @@ import androidx.fragment.app.FragmentPagerAdapter;
         public Fragment getItem(int position) {
 
             switch(position) {
-                case 0:
-                    return new ExoPlayerView();
+//                case 0:
+//                    return new ExoPlayerView();
 //                    return new AllPrograms();
-                case 1:
+                case 0:
                     return new Notifications();
-                case 2:
+                case 1:
                     return new Favorites();
-                case 3:
+                case 2:
                     return new AllPrograms();
             }
             throw new IllegalArgumentException("No");
@@ -41,6 +40,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
         @Override
         public int getCount() {
             // Show 4 total pages.
-            return 4;
+            return 3;
         }
     }

@@ -2,7 +2,6 @@ package com.example.radiobe.generalScreens;
 
 import android.os.Bundle;
 
-import com.example.radiobe.radioLive.ExoPlayerView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -22,12 +21,12 @@ public class ActivityRadio extends AppCompatActivity {
         setContentView(R.layout.activity_radio);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        ExoPlayerView fragment = new ExoPlayerView();
-
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-        transaction.replace(R.id.containerRadio, fragment).commit();
+//
+//        ExoPlayerView fragment = new ExoPlayerView();
+//
+//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+//
+//        transaction.replace(R.id.containerRadio, fragment).commit();
     }
 
 
