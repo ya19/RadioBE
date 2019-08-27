@@ -19,19 +19,13 @@ import com.example.radiobe.database.ParseJsonTask;
 import com.example.radiobe.database.SaveUserToDataBaseTask;
 import com.example.radiobe.models.Comment;
 import com.example.radiobe.models.RadioItem;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import com.cloudant.client.api.ClientBuilder;
 import com.cloudant.client.api.CloudantClient;
 import com.example.radiobe.models.User;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+
 
 
 //1) get streamsQuery

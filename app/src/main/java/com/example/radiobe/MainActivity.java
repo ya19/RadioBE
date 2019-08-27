@@ -1,14 +1,11 @@
 package com.example.radiobe;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
-
 import com.bumptech.glide.Glide;
-import com.example.radiobe.R;
 import com.example.radiobe.fragments.MainScreen;
 import com.example.radiobe.generalScreens.ActivityRadio;
 import com.example.radiobe.registrations.Login;
