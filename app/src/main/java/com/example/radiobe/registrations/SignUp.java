@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -22,6 +23,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 
 public class SignUp extends AppCompatActivity {
     EditText etFirst;
@@ -31,6 +36,7 @@ public class SignUp extends AppCompatActivity {
     EditText etPassword;
     EditText etPassAgain;
     Button btnSignUp;
+    DatePicker datePicker;
     boolean isUserInDatabase;
     FirebaseUser firebaseUser;
     User user;
@@ -47,7 +53,20 @@ public class SignUp extends AppCompatActivity {
 
             String firstName = etFirst.getText().toString();
             String lastName = etLast.getText().toString();
-            String date = etDate.getText().toString();
+//            String date = etDate.getText().toString();
+            int day = datePicker.getDayOfMonth();
+            int month = datePicker.getMonth();
+            int year = datePicker.getYear();
+
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+            Calendar calendar = Calendar.getInstance();
+                    calendar.set(year, month, day);
+            System.out.println(month);
+            Date date = calendar.getTime();
+            String formated = simpleDateFormat.format(date);
+            System.out.println(formated);
+
+
             String userName = etEmail.getText().toString();
             String password = etPassword.getText().toString();
             String password2 = etPassAgain.getText().toString();
@@ -58,8 +77,8 @@ public class SignUp extends AppCompatActivity {
                 etLast.setError("Enter your last name");
             if (userName.length() < 1)
                 etEmail.setError("Enter your user name");
-            if (password.length() < 1 || password.length() > 10)
-                etPassword.setError("Your password must be between 1 - 10 characters");
+            if (password.length() < 6)
+                etPassword.setError("Your password must be at least 6 characters");
 
 //            if (password2.length() < 1 && password.length() > 10)
 //                etPassAgain.setError("Your password must be between 1 - 10 characters");
@@ -95,13 +114,13 @@ public class SignUp extends AppCompatActivity {
                 finish();
             } else {
                 if (task.getException() instanceof FirebaseAuthUserCollisionException) {
-                    Toast.makeText(this, "מייל כבר נמצא במערכת", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "המייל כבר נמצא במערכת", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 // If sign in fails, display a message to the user.
                 //
                 System.out.println("createUserWithEmail:failure" + task.getException());
-                Toast.makeText(this, "הרשמה נכשלה", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "ההרשמה נכשלה, אנא בדוק את השדות ונסה שנית", Toast.LENGTH_SHORT).show();
             }
 
 
@@ -113,13 +132,15 @@ public class SignUp extends AppCompatActivity {
     private void findView() {
         etFirst = findViewById(R.id.etFirst);
         etLast = findViewById(R.id.etLast);
-        etDate = findViewById(R.id.etDate);
+//        etDate = findViewById(R.id.etDate);
+        datePicker = findViewById(R.id.datePicker);
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
         etPassAgain = findViewById(R.id.etPassAgain);
         btnSignUp = findViewById(R.id.btnSignUp);
     }
 }
+
 //    public void checkUserinDatabase(User newUser) {
 //        //how to query our database.
 //        //get a ref to the users node(like table but no..)

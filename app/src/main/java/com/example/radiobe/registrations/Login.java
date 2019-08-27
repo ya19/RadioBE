@@ -65,6 +65,9 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        setupView();
+
+        //CallbackManager callbackManager;
         callbackManager = CallbackManager.Factory.create();
         setupView();
 
@@ -161,7 +164,6 @@ public class Login extends AppCompatActivity {
                         // Sign in success, update UI with the signed-in user's information
 
                         System.out.println("signInWithEmail:success");
-//                        Log.d(TAG, "signInWithEmail:success");
                         //handle getting UserCredentials from server;
                         Intent intent = new Intent(this, MainScreen.class);
                         startActivity(intent);
@@ -218,9 +220,6 @@ public class Login extends AppCompatActivity {
         tvForgotPassword = findViewById(R.id.tvForgotPassword);
         btnLogin = findViewById(R.id.btnLogin);
         btnSignUp = findViewById(R.id.btnSignUp);
-        signInButtonGoogle = findViewById(R.id.btnGoogle);
-        btnInstagram = findViewById(R.id.btnInstagram);
-
         loginButtonFacebook = findViewById(R.id.login_button);
     }
 }

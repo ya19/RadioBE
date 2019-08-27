@@ -29,7 +29,7 @@ public class FavoriteLastAddAdapter extends RecyclerView.Adapter<FavoriteLastAdd
     @Override
     public FavoriteLastAddViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
-        View view = layoutInflater.inflate(R.layout.item_favorite_recentlly_add, parent, false);
+        View view = layoutInflater.inflate(R.layout.item_favorite_my_favorite, parent, false);
 
         return new FavoriteLastAddViewHolder(view);
     }
