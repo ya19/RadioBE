@@ -2,10 +2,10 @@ package com.example.radiobe.models;
 
 public class NotificationItem {
     /*Properties*/
-    private int imageURL;
+    private int imageURL;       //not int. picutre from server
     private String title;
     private String description;
-    private String date;
+    private String date;        //date from the server.
 
     /*Constructor*/
     public NotificationItem(int imageURL, String title, String description, String date) {

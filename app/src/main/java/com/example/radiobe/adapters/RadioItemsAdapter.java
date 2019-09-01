@@ -25,6 +25,7 @@ import com.example.radiobe.database.ChangeViewsTask;
 import com.example.radiobe.fragments.MainScreen;
 import com.example.radiobe.models.Comment;
 import com.example.radiobe.models.RadioItem;
+import com.google.android.exoplayer2.Player;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -156,7 +157,7 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
             intent.putExtra("stream_url", radioItem.getFilePath());
             intent.putExtra("play", b);
             LocalBroadcastManager.getInstance(context).sendBroadcast(intent);
-
+            changeToggles();
             System.out.println("Viewed");
 
 
@@ -179,6 +180,20 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
 
     }
 
+    private void changeToggles(){
+        for (int i = 0; i < recyclerView.getChildCount(); i++) {
+
+            RadioViewHolder holder = (RadioViewHolder) recyclerView.findViewHolderForAdapterPosition(i);
+
+            if (MainScreen.simpleExoPlayer.getPlaybackState() == Player.STATE_READY &&
+                    MainScreen.simpleExoPlayer.getCurrentTag() != holder.tvFileName){
+                System.out.println("NEW IF");
+
+                holder.tb.setChecked(false);
+                notifyItemChanged(i);
+            }
+        }
+    }
 
 //change 3
     @Override
@@ -230,7 +245,6 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
         TextView tvAdded;
         FloatingActionButton addFavorites;
         FloatingActionButton shareFacebook;
-        ToggleButton toggleLikes;
         ImageButton addLike;
         ImageButton addComment;
         ImageView ivViews;
@@ -251,7 +265,6 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
             tvAdded = itemView.findViewById(R.id.addedTv);
             addFavorites = itemView.findViewById(R.id.addFavoriteBtn);
             shareFacebook = itemView.findViewById(R.id.shareFbBtn);
-            toggleLikes = itemView.findViewById(R.id.toggleLikes);
             addComment = itemView.findViewById(R.id.commentBtn);
             ivViews = itemView.findViewById(R.id.viewsIv);
             tvLikes = itemView.findViewById(R.id.likesTv);

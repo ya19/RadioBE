@@ -4,6 +4,7 @@ import com.example.radiobe.models.User;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +13,7 @@ public class RadioItem {
     //props
     private String itemName;
     private String filePath;
-    private long creationDate;
+    private Long creationDate;
     private long duration;
     private int likes;
     private int views;
@@ -75,7 +76,7 @@ public class RadioItem {
 
 
     //from Api ctor.
-    public RadioItem(long duration, String vodName ,String itemName, long creationDate, String filePath) {
+    public RadioItem(long duration, String vodName ,String itemName, Long creationDate, String filePath) {
         this.vodName = vodName;
         this.duration = duration;
         this.itemName = itemName;
@@ -84,7 +85,7 @@ public class RadioItem {
     }
 
     //from api after convert to string
-    public RadioItem(long duration, String vodName ,String itemName, long creationDate , String creationDateString, String filePath, String durationString) {
+    public RadioItem(long duration, String vodName ,String itemName, Long creationDate , String creationDateString, String filePath, String durationString) {
         this.vodName = vodName;
         this.duration = duration;
         this.itemName = itemName;
@@ -154,11 +155,11 @@ public class RadioItem {
         this.filePath = filePath;
     }
 
-    public String getCreationDate() {
-        return String.valueOf(creationDate);
+    public Long getCreationDate() {
+        return creationDate;
     }
 
-    public void setCreationDate(long creationDate) {
+    public void setCreationDate(Long creationDate) {
         this.creationDate = creationDate;
     }
 
@@ -256,6 +257,27 @@ public class RadioItem {
     public void set_rev(String _rev) {
         this._rev = _rev;
     }
+    static int count = 0;
+    public static RadioItem getItemFromHashMap(HashMap<String, Object> snapshot){
+        count++;
+//        int comments = (int) snapshot.get("comments");
+//        int likes = (Integer) snapshot.get("likes");
+//        int resImage = (Integer) snapshot.get("resImage");
+//        int views = (Integer) snapshot.get("views");
+        long creationDate = (long) snapshot.get("creationDate");
+        String creationDateString = (String) snapshot.get("creationDateString");
+        long duration = (long) snapshot.get("duration");
+        String durationString = (String) snapshot.get("durationString");
+        String filePath = (String) snapshot.get("filePath");
+        String itemName = (String) snapshot.get("itemName");
+        String vodName = (String) snapshot.get("vodName");
+
+        System.out.println("NEW STATIC METHOD---> "+String.valueOf(count)+ itemName);
+        return  new RadioItem(duration, vodName, itemName, creationDate, creationDateString, filePath,durationString);
+//        return new RadioItem(duration, creationDateString, likes, views, comments, resImage , null, itemName, filePath, durationString);
+    }
+
+
 
     @Override
     public String toString() {

@@ -3,10 +3,17 @@ package com.example.radiobe.database;
 import android.media.MediaMetadataRetriever;
 import android.os.AsyncTask;
 import android.text.format.DateFormat;
+import android.widget.NumberPicker;
+
+import androidx.annotation.NonNull;
 
 import com.example.radiobe.models.RadioItem;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -57,8 +64,8 @@ public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
                     String vodName = radioItem.getString("vodName");
                     String change = vodName.replace('_', ' ');
                     String itemName = change.replace(".mp4", "");
-                    long creationDate = radioItem.getLong("creationDate");
-
+//                    long creationDate = radioItem.getLong("creationDate");
+                    Long creationDate = radioItem.getLong("creationDate");
                     String creationDateString = DateFormat.format("dd/MM/yyyy", new Date(creationDate)).toString();
 
 
@@ -107,7 +114,50 @@ public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
 //
 //
     private void saveItemsToDataBase(List<RadioItem> jsonStreams) {
-        myDatabase.child("streams").setValue(jsonStreams);
+//        myDatabase.child("streams").setValue(jsonStreams);
+
+        myDatabase.child("streams").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                if (dataSnapshot.getChildrenCount() > 0) {
+
+                        for (RadioItem jsonStream : jsonStreams) {
+                            boolean shouldWrite = false;
+
+                            for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                                RadioItem item = RadioItem.getItemFromHashMap((HashMap<String, Object>) snapshot.getValue());
+                                if (jsonStream.getVodName().equals(item.getVodName())) {
+                                    shouldWrite = true;
+                                    System.out.println("Save the item.");
+
+                            }
+                        }
+
+                        if (!shouldWrite){
+                            String key = myDatabase.child("streams").push().getKey();
+                            System.out.println(key);
+                            myDatabase.child("streams").child(key).setValue(jsonStream);
+                        }
+                    }
+                }
+                    else{
+                        for (RadioItem jsonStream : jsonStreams) {
+                            String key = myDatabase.child("streams").push().getKey();
+                            System.out.println(key);
+                            myDatabase.child("streams").child(key).setValue(jsonStream);
+                        }
+                    }
+
+                }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                System.out.println("ERROR");
+            }
+        });
+
+
     }
 //
 //    private void accessDb() {

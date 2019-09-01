@@ -51,7 +51,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
     String fileName;
     String filePath;
     private PlayerView playerView;
-    private SimpleExoPlayer simpleExoPlayer;
+    public static SimpleExoPlayer simpleExoPlayer;
 
     private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
@@ -76,6 +76,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
             boolean play = intent.getBooleanExtra("play", false);
             if(play)
                 loadDataToplayer(fileName, filePath);
+
             else{
                 simpleExoPlayer.stop();
             }
@@ -98,24 +99,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
         LocalBroadcastManager.getInstance(this).registerReceiver(mediaBroadcastReceiver, new IntentFilter("play_song"));
 
         setContentView(R.layout.activity_mainscreen);
-        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-//        logOutBtn = findViewById(R.id.logOutBtn);
-        navigation = findViewById(R.id.navigation);
-        viewPager = findViewById(R.id.container);
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        playerView = findViewById(R.id.playerView);
-        // Setup Exoplayer instance
-        simpleExoPlayer = ExoPlayerFactory.newSimpleInstance(this);
-        playerView.setPlayer(simpleExoPlayer);
-        playerView.setControllerHideOnTouch(false);
-        playerView.setControllerShowTimeoutMs(0);
-
-        navigation.setOnNavigationItemSelectedListener(this);
-
-        fm = getSupportFragmentManager();
-        fm.beginTransaction().replace(R.id.container, new AllPrograms()).commit();
+        generalSetup();
 
 //        LocalBroadcastManager.getInstance(this).registerReceiver(new ExoPlayerView().broadcastReceiver, new IntentFilter("play_song"));
 
@@ -126,36 +110,7 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
             Toast.makeText(this, firebaseUser.getEmail() + " login successful", Toast.LENGTH_SHORT).show();
         }
 
-//        logOutBtn.setOnClickListener((v)->{
-//            if(FirebaseAuth.getInstance().getCurrentUser() != null) {
-//                AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//                builder.setMessage(getString(R.string.logOutDialog))
-//                        .setPositiveButton(getString(R.string.Ok), new DialogInterface.OnClickListener() {
-//                            public void onClick(DialogInterface dialog, int id) {
-//                                LoginManager.getInstance().logOut();
-//                                FirebaseAuth.getInstance().signOut();
-//                                Toast.makeText(MainScreen.this, getString(R.string.logOutSuccess), Toast.LENGTH_SHORT).show();
-//                                Intent intent = new Intent(MainScreen.this, MainActivity.class);
-//                                startActivity(intent);
-//                                finish();
-//                            }
-//                        })
-//                        .setNegativeButton(getString(R.string.cancel), new DialogInterface.OnClickListener() {
-//                            public void onClick(DialogInterface dialog, int id) {
-//                                Toast.makeText(MainScreen.this, "No change!", Toast.LENGTH_SHORT).show();
-//                            }
-//                        });
-//                AlertDialog alertDialog = builder.create();
-//                alertDialog.show();
-//            } else{
-//                Toast.makeText(this, "There is no user currently logged in!", Toast.LENGTH_SHORT).show();
-//            }
-//        });
 
-
-        mMainScreenAdapter = new MainScreenAdapter(fm);
-        viewPager.setAdapter(mMainScreenAdapter);
-        viewPager.setCurrentItem(3);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -188,6 +143,29 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
 
     }
 
+    private void generalSetup() {
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+//        logOutBtn = findViewById(R.id.logOutBtn);
+        navigation = findViewById(R.id.navigation);
+        viewPager = findViewById(R.id.container);
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        playerView = findViewById(R.id.playerView);
+        // Setup Exoplayer instance
+        simpleExoPlayer = ExoPlayerFactory.newSimpleInstance(this);
+        playerView.setPlayer(simpleExoPlayer);
+        playerView.setControllerHideOnTouch(false);
+        playerView.setControllerShowTimeoutMs(0);
+
+        navigation.setOnNavigationItemSelectedListener(this);
+        fm = getSupportFragmentManager();
+        fm.beginTransaction().replace(R.id.container, new AllPrograms()).commit();
+        mMainScreenAdapter = new MainScreenAdapter(fm);
+        viewPager.setAdapter(mMainScreenAdapter);
+        viewPager.setCurrentItem(3);
+    }
+
     private void loadDataToplayer(String fileName, String filePath) {
 //        newFilePath = getArguments().getString("filePath");
 
@@ -195,10 +173,11 @@ public class MainScreen extends AppCompatActivity implements BottomNavigationVie
         //Load DataSorce Uri
         ExtractorMediaSource uriMediaSource =
                 new ExtractorMediaSource.Factory(
-                        new DefaultHttpDataSourceFactory("Radio be")).
+                        new DefaultHttpDataSourceFactory("Radio be")).setTag(fileName).
                         createMediaSource(Uri.parse(filePath));
 
 
+        System.out.println(uriMediaSource.getTag());
         //Prepare the exoPlayerInstance with the source and play when he Ready
 
         simpleExoPlayer.prepare(uriMediaSource);
