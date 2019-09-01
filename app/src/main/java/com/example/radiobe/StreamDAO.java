@@ -105,7 +105,7 @@ public class StreamDAO {
 
     public void jsonParse(ParseJsonListener listener){
         new FireBaseParseJson(listener).execute();
-        new ParseJsonTask(listener).execute();
+//        new ParseJsonTask(listener).execute();
     }
 
     public void handleLikes(FirebaseUser firebaseUser, RadioItem radioItem, ChangeLikesListener changeLikesListener){

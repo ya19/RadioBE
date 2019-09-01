@@ -46,17 +46,17 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
     //    List<RadioItem> items;
     List<RadioItem> streams;
     RecyclerView recyclerView;
-    ProgressBar progressBar;
+//    ProgressBar progressBar;
     FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
     Context context;
     List<RadioItem> filteredStreams;
 
-    public RadioItemsAdapter(List<RadioItem> streams, RecyclerView recyclerView, ProgressBar pb, Context context) {
+    public RadioItemsAdapter(List<RadioItem> streams, RecyclerView recyclerView, Context context) {
         this.streams = streams;
         //change 1
         this.filteredStreams = streams;
         this.recyclerView = recyclerView;
-        this.progressBar = pb;
+//        this.progressBar = pb;
         this.context = context;
     }
 
@@ -180,6 +180,8 @@ public class RadioItemsAdapter extends RecyclerView.Adapter<RadioItemsAdapter.Ra
 
     }
 
+
+    //TODO : Still need to figure out why i need to press twice for it to work again.
     private void changeToggles(){
         for (int i = 0; i < recyclerView.getChildCount(); i++) {
 

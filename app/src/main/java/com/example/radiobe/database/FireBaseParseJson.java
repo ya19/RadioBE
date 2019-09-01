@@ -3,12 +3,10 @@ package com.example.radiobe.database;
 import android.media.MediaMetadataRetriever;
 import android.os.AsyncTask;
 import android.text.format.DateFormat;
-import android.widget.NumberPicker;
 
 import androidx.annotation.NonNull;
 
 import com.example.radiobe.models.RadioItem;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -31,14 +29,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
+public class FireBaseParseJson extends AsyncTask<Void, Void, List<RadioItem>> {
 
     DatabaseReference myDatabase = FirebaseDatabase.getInstance().getReference();
     private List<RadioItem> streams = new ArrayList<>();
     ParseJsonListener listener;
 
     @Override
-    protected Void doInBackground(Void... voids) {
+    protected List<RadioItem> doInBackground(Void... voids) {
         String dataBaseLink = "https://be.repoai.com:5443/LiveApp/rest/broadcast/getVodList/0/100?fbclid=IwAR30CQkxhzJOKMIadGufFhaVJvKnus-KjgYkfOki5GcEeSLU9yDlER8MJ_0";
         try {
             URL url = new URL(dataBaseLink);
@@ -76,7 +74,7 @@ public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
                     long duration = getDurationFromFile(filePath);
                     String durationString = convertDuration(duration);
 
-                    RadioItem item = new RadioItem(duration, vodName, itemName, creationDate, creationDateString, filePath, durationString );
+                    RadioItem item = new RadioItem(duration, vodName, itemName, creationDate, creationDateString, filePath, durationString, null );
                     streams.add(item);
 
 //                    myDatabase.child("streams").setValue(item);
@@ -96,13 +94,22 @@ public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
             e.printStackTrace();
         }
 
-        return null;
+        return streams;
     }
 
     @Override
-    protected void onPostExecute(Void aVoid) {
-        if (listener != null)
-            listener.done();
+    protected void onPostExecute(List<RadioItem> jsonStreams) {
+
+        FirebaseItemsDataSource.getInstance().setStreams(jsonStreams);
+
+        FirebaseItemsDataSource.getInstance().loadData(()->{
+            if (listener != null) {
+                listener.done();
+
+//        new FirebaseItemsDataSource(null, null, jsonStreams);
+            }
+        });
+
     }
 
     public FireBaseParseJson(ParseJsonListener listener) {
@@ -123,19 +130,21 @@ public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
                 if (dataSnapshot.getChildrenCount() > 0) {
 
                         for (RadioItem jsonStream : jsonStreams) {
-                            boolean shouldWrite = false;
+                            boolean shouldWrite = true;
 
                             for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                                 RadioItem item = RadioItem.getItemFromHashMap((HashMap<String, Object>) snapshot.getValue());
                                 if (jsonStream.getVodName().equals(item.getVodName())) {
-                                    shouldWrite = true;
-                                    System.out.println("Save the item.");
+                                    shouldWrite = false;
+                                    System.out.println("Don't Save the item.");
 
                             }
                         }
 
-                        if (!shouldWrite){
+                        if (shouldWrite){
+                            System.out.println("Save the item!");
                             String key = myDatabase.child("streams").push().getKey();
+                            jsonStream.setUid(key);
                             System.out.println(key);
                             myDatabase.child("streams").child(key).setValue(jsonStream);
                         }
@@ -144,6 +153,7 @@ public class FireBaseParseJson extends AsyncTask<Void, Void, Void> {
                     else{
                         for (RadioItem jsonStream : jsonStreams) {
                             String key = myDatabase.child("streams").push().getKey();
+                            jsonStream.setUid(key);
                             System.out.println(key);
                             myDatabase.child("streams").child(key).setValue(jsonStream);
                         }

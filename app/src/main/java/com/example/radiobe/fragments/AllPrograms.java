@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
 import com.example.radiobe.R;
+import com.example.radiobe.adapters.RadioItemsAdapter;
 import com.example.radiobe.database.FirebaseItemsDataSource;
 import com.example.radiobe.database.RadioItemsDataSource;
 import com.facebook.FacebookActivity;
@@ -25,6 +26,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
@@ -33,12 +35,13 @@ public class AllPrograms extends Fragment {
     private RecyclerView recyclerView;
 //    private RadioItemsAdapter adapter;
 
-    RadioItemsDataSource source;
+//    RadioItemsDataSource source;
+    FirebaseItemsDataSource source = FirebaseItemsDataSource.getInstance();
     private SearchView searchView;
 
     private TabLayout tabs;
-    private ProgressBar progressBar;
-
+//    private ProgressBar progressBar;
+    RadioItemsAdapter adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,11 +51,18 @@ public class AllPrograms extends Fragment {
         return v;
     }
 
+    public AllPrograms(){
+
+    }
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = view.findViewById(R.id.recycler);
-        progressBar = view.findViewById(R.id.progressBar);
+//        progressBar = view.findViewById(R.id.progressBar);
+        adapter = new RadioItemsAdapter(FirebaseItemsDataSource.getInstance().getFireBaseStreams(), recyclerView,  getContext());
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         searchView = view.findViewById(R.id.searchView);
         if (getActivity() != null) {
@@ -65,8 +75,12 @@ public class AllPrograms extends Fragment {
 
 
 //        new RadioItemsDataSource(recyclerView, progressBar).execute();
-        source = new RadioItemsDataSource(recyclerView, progressBar);
-        source.execute();
+//        source = new RadioItemsDataSource(recyclerView, progressBar);
+//        source.execute();
+
+
+//            source.initGeneral(recyclerView,progressBar);
+//        source = new FirebaseItemsDataSource(recyclerView, progressBar , null);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
