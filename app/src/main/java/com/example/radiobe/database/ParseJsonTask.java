@@ -104,7 +104,7 @@ public class ParseJsonTask extends AsyncTask<Void,Void,Void> {
                     String durationString = convertDuration(duration);
 
 
-                    RadioItem item = new RadioItem(duration, vodName, itemName, creationDate, creationDateString, filePath, durationString);
+                    RadioItem item = new RadioItem(duration, vodName, itemName, creationDate, creationDateString, filePath, durationString, null);
                     //            streams.add(item);
 
                     streams.add(item);
